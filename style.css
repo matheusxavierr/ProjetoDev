@@ -1,0 +1,41 @@
+body{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.mapa-svg-estados {
+    
+    fill: darkolivegreen; 
+    background-image: url(./greenBase.jpg);
+    -webkit-transition: .8s ease;
+    -moz-transition: .8s ease;
+    -ms-transition: .8s ease;
+    -o-transition: .8s ease;
+    transition: .8s ease;
+    stroke: transparent;
+    stroke-dasharray: 180%;
+    stroke-dashoffset: -120%;
+    stroke-width: 2px;
+
+}
+
+.mapa-svg-estados:hover {
+
+    /*opacity: 0.6;*/
+    cursor: pointer;
+    stroke:#0098ff;
+    fill: #525252;
+    stroke-dashoffset: 0%;
+
+}
+
+.mapa-svg-estados-active {
+
+    cursor: pointer;
+    stroke: #0098ff;
+    fill: #525252;
+    stroke-dashoffset: 0%;
+
+}
