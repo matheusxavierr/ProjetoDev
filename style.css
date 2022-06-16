@@ -1,13 +1,82 @@
-body{
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,400&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
 
+html,
+body {
+    font-family: "Source Sans Pro", 'Times New Roman';
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    
+} 
+
+/* HEADER */
+
+header {
+    background-color: #0b0b0b;
+}
+
+.logo {
+    height: 70px;
+    width: 200px; 
+    font-size: 40px;
+    color: white;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 980px;
+    height: 80px;
+    margin: auto;
+}
+
+header nav ul{
+    display: flex;
+}
+
+header nav ul li {
+    list-style: none;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 24px;
+    transition: all 250ms linear 0s;
+}
+
+header nav ul li a:hover {
+    background: rgba(255,255,255,0.15);
+}
+
+header .container img{
+    height: 30px;
+}
+
+#checkbox-menu{
+    display:none
+}
+
+main {
     display: flex;
     align-items: center;
     justify-content: center;
-
+    background-image: linear-gradient(0deg, rgb(35, 35, 242) 0%, rgb(246, 246, 58) 50%, rgb(95, 249, 95) 100%);
+    opacity: 0.9;
+    flex-direction: column;
 }
-.mapa-svg-estados {
+
+.mapa-svg-estados {   
     
-    fill: darkolivegreen; 
+    fill: rgb(7, 7, 6); 
     background-image: url(./greenBase.jpg);
     -webkit-transition: .8s ease;
     -moz-transition: .8s ease;
@@ -18,24 +87,95 @@ body{
     stroke-dasharray: 180%;
     stroke-dashoffset: -120%;
     stroke-width: 2px;
-
 }
 
 .mapa-svg-estados:hover {
-
     /*opacity: 0.6;*/
     cursor: pointer;
     stroke:#0098ff;
     fill: #525252;
     stroke-dashoffset: 0%;
-
 }
 
 .mapa-svg-estados-active {
-
+    
     cursor: pointer;
     stroke: #0098ff;
     fill: #525252;
     stroke-dashoffset: 0%;
+}
 
+.container-img {
+    width: 300px;
+    height: 300px;
+}
+
+.acre-hover {
+    margin-top: -250px;
+    left: 10%;
+    width: 150px;
+    height: 150px;
+    background-image: url(./assets/acre-m.png);
+    object-fit: contain;
+    position: absolute;
+}
+
+.sao-paulo-hover {
+    margin-top: -250px;
+    left: 10%;
+    width: 150px;
+    height: 150px;
+    background-image: url(./assets/sao-paulo-m.png);
+    object-fit: contain;
+    position: absolute;
+}
+
+.amazonas-hover {
+    margin-top: -250px;
+    left: 10%;
+    width: 150px;
+    height: 150px;
+    background-image: url(./assets/amazonas-m.png);
+    object-fit: contain;
+    position: absolute;
+}
+
+.para-hover {
+    margin-top: -250px;
+    left: 10%;
+    width: 150px;
+    height: 150px;
+    background-image: url(./assets/para-m.png);
+    object-fit: contain;
+    position: absolute;
+}
+
+.espirito-s-hover {
+    margin-top: -250px;
+    left: 10%;
+    width: 150px;
+    height: 150px;
+    background-image: url(./assets/espirito-s-m.png);
+    object-fit: contain;
+    position: absolute;
+}
+
+.rio-hover {
+    margin-top: -250px;
+    left: 10%;
+    width: 150px;
+    height: 150px;
+    background-image: url(./assets/rio-m.png);
+    object-fit: contain;
+    position: absolute;
+}
+
+.rio-g-sul-hover {
+    margin-top: -250px;
+    left: 10%;
+    width: 150px;
+    height: 150px;
+    background-image: url(./assets/rio-g-sul-m.png);
+    object-fit: contain;
+    position: absolute;
 }
