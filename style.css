@@ -21,7 +21,7 @@ header {
 }
 
 .logo {
-    height: 70px;
+    height: 50px;
     width: 200px; 
     font-size: 40px;
     color: white;
@@ -67,7 +67,7 @@ header .container img{
 
 main {
     display: flex;
-    align-items: center;
+    align-items:flex-start;
     justify-content: center;
     background-image: linear-gradient(0deg, rgb(35, 35, 242) 0%, rgb(246, 246, 58) 50%, rgb(95, 249, 95) 100%);
     opacity: 0.9;
@@ -78,6 +78,7 @@ main {
     display: flex;
     flex-direction: row;
     width: 100%;
+    height: 700px;
 }
 
 .map-area-transform {
@@ -91,13 +92,14 @@ main {
 
 aside {
     padding: 100px 20px;
-    margin: 0;
     align-items: center;
     justify-content: center;
     text-align: center;
     display: block;    
     background-color: #0098ff;    
-    height: 100%;
+    height: 175%;
+    border: 1px solid white;
+    border-radius: 10px;
 }
 
 aside ul li {
@@ -142,11 +144,10 @@ aside ul li {
 }
 
 #introdution-texts {
-    margin: 20px;
-    align-items: center;
-    justify-content: center;
-    padding: 50px;
-    line-height: 30px;
+    width: 75%;
+    display: inline;
+    text-align: justify;
+    align-items: flex-end;
 }
 
 #introdution-texts h1{
@@ -158,6 +159,11 @@ aside ul li {
     padding: 20px;
     line-height: 50px;
     text-align: center;
+    align-items: center;
+}
+img:hover {
+    transition: 0.5s;
+    transform: translateY(-9px);
 }
 
 
