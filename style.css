@@ -110,6 +110,24 @@ main {
     height: 300px;
 }
 
+#introdution-texts {
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    line-height: 30px;
+}
+
+#introdution-texts h1{
+    text-align: center;
+}
+
+#team {
+    margin-bottom: 50px;
+}
+
+/* ------------------------ CLASSES ESTADOS ----------------------------------- */
+
 .acre-hover {
     margin-top: -250px;
     left: 10%;
