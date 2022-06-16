@@ -74,6 +74,37 @@ main {
     flex-direction: column;
 }
 
+#menu {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.map-area-transform {
+    padding-top: 100px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: block;
+    width: 80%;
+}
+
+aside {
+    padding: 100px 20px;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: block;    
+    background-color: #0098ff;    
+    height: 100%;
+}
+
+aside ul li {
+    list-style: none;
+    margin-top: 20px;
+}
+
 .mapa-svg-estados {   
     
     fill: rgb(7, 7, 6); 
@@ -123,8 +154,13 @@ main {
 }
 
 #team {
-    margin-bottom: 50px;
+    margin: 50px;
+    padding: 20px;
+    line-height: 50px;
+    text-align: center;
 }
+
+
 
 /* ------------------------ CLASSES ESTADOS ----------------------------------- */
 
@@ -136,6 +172,7 @@ main {
     background-image: url(./assets/acre-m.png);
     object-fit: contain;
     position: absolute;
+    transition: 0.5s ease-in-out;
 }
 
 .sao-paulo-hover {
@@ -146,6 +183,7 @@ main {
     background-image: url(./assets/sao-paulo-m.png);
     object-fit: contain;
     position: absolute;
+    transition: 0.5s ease-in-out;
 }
 
 .amazonas-hover {
@@ -156,6 +194,7 @@ main {
     background-image: url(./assets/amazonas-m.png);
     object-fit: contain;
     position: absolute;
+    transition: 0.5s ease-in-out;
 }
 
 .para-hover {
@@ -166,6 +205,7 @@ main {
     background-image: url(./assets/para-m.png);
     object-fit: contain;
     position: absolute;
+    transition: 0.5s ease-in-out;
 }
 
 .espirito-s-hover {
@@ -176,6 +216,7 @@ main {
     background-image: url(./assets/espirito-s-m.png);
     object-fit: contain;
     position: absolute;
+    transition: 0.5s ease-in-out;
 }
 
 .rio-hover {
@@ -186,6 +227,7 @@ main {
     background-image: url(./assets/rio-m.png);
     object-fit: contain;
     position: absolute;
+    transition: 0.5s ease-in-out;
 }
 
 .rio-g-sul-hover {
@@ -196,4 +238,18 @@ main {
     background-image: url(./assets/rio-g-sul-m.png);
     object-fit: contain;
     position: absolute;
+    transition: 0.5s ease-in-out;
+}
+
+
+@media only screen and (max-width: 430px) {
+    .map-area-transform {
+        display: none;
+    }
+
+    aside {
+        width: 100%;
+    }
+
+
 }
