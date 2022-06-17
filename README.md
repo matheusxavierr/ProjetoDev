@@ -1,4 +1,4 @@
-*Read this in other languages: [English](README.md), [Português](README.pt.md),
+*Read this in other languages: [:brazil:](README.pt.md), [🇺🇲](README.md)
 <h1 align="center">
   <p align="center"><img src="https://github.com/matheusxavierr/ProjetoDev/blob/main/Images/justLogo.jpeg?raw=true" alt="Brasileirismo" width="50px" height="50px"> Brasileirismo</p>
   </h1>
