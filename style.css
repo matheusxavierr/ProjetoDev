@@ -20,24 +20,28 @@ header {
     background-color: #0b0b0b;
 }
 
-.logo {
-    height: 50px;
-    width: 200px; 
-    font-size: 40px;
-    color: white;
+header .logo {
+    border-radius: 50%;
+    padding: 10px;
+    
 }
 
 header .container{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    max-width: 980px;
-    height: 80px;
+    display: inline-flex;
+    align-items:center;
+    justify-content:end;
+    max-width: 100%;
+    height: 20px;
     margin: auto;
+    position:initial;
 }
 
 header nav ul{
     display: flex;
+}
+.card:hover {
+    transition: 0.5s;
+    transform: translateY(-9px);
 }
 
 header nav ul li {
@@ -142,6 +146,10 @@ aside ul li {
     width: 300px;
     height: 300px;
 }
+.container-img:hover {
+    transition: 0.5s;
+    transform: translateY(-9px);
+}
 
 #introdution-texts {
     width: 75%;
@@ -160,10 +168,6 @@ aside ul li {
     line-height: 50px;
     text-align: center;
     align-items: center;
-}
-img:hover {
-    transition: 0.5s;
-    transform: translateY(-9px);
 }
 
 
