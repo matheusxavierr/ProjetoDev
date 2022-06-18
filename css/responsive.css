@@ -1,0 +1,140 @@
+@media (max-width: 630px) {
+
+    /*----------------------------------- HEADER -----------------------------------------*/
+    .menu-button-container {
+        display: flex
+    }
+
+    .menu {
+        position: absolute;
+        left: 0;
+        top: 80px;
+        flex-direction: column;
+        width: 100vw;
+        justify-content: center;
+        align-items: center;
+        transform: scaleX(0);
+        z-index: 1;
+    }
+
+    .menu>li {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        color: white;
+        background-color: #44bde7;
+        border-radius: 5px;
+    }
+
+    .menu>li:not(:last-child) {
+        border-bottom: 1px solid white;
+    }
+
+    .menu li a {
+        flex: 1;
+        text-align: center;
+    }
+
+    main .container-menu img {
+        display: none;
+    }
+
+    .container-menu {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 20px;
+    }
+
+    #header label {
+        cursor: pointer;
+        position: relative;
+        display: block;
+        height: 22px;
+        width: 30px;
+    }
+
+    label span {
+        position: absolute;
+        display: block;
+        height: 5px;
+        width: 100%;
+        background: white;
+        border-radius: 30px;
+        transition: 0.25s ease-in-out;
+    }
+
+    label span:nth-child(1) {
+        top: 0;
+    }
+
+    label span:nth-child(2) {
+        top: 8px;
+    }
+
+    label span:nth-child(3) {
+        top: 16px;
+    }
+
+    #checkbox-menu:checked+label span:nth-child(1) {
+        transform: rotate(-45deg);
+        top: 8px
+    }
+
+    #checkbox-menu:checked+label span:nth-child(2) {
+        opacity: 0;
+    }
+
+    #checkbox-menu:checked+label span:nth-child(3) {
+        transform: rotate(45deg);
+        top: 8px
+    }
+
+    nav.menu{
+        width: 100%;
+    }
+
+    #checkbox-menu:checked~nav .menu {
+        transform: scaleX(1);
+        transform-origin: right;
+        transition: transform 0.5s ease;
+    } 
+
+    /*----------------------------------- ANIMAÇÃO -----------------------------------------*/
+
+    .animation {
+        max-width: 330px;
+        margin: 10px auto;
+    }
+
+    .animation video {
+        width: 330px;
+        height: 300px;
+    }
+
+    /*----------------------------------- ARTIGO -----------------------------------------*/
+
+    main #introdution-texts {
+        margin: 30px;
+    }
+
+    /*----------------------------------- FOOTER -----------------------------------------*/
+
+    footer p{
+        font-size: 12px;
+    }
+
+    /*----------------------------------- EQUIPE -----------------------------------------*/
+
+    #team {
+        margin: 20px;
+    }
+
+    #team img {
+        width: 300px;
+    }
+
+}

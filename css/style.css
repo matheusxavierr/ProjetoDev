@@ -11,14 +11,14 @@ body {
     font-family: "Source Sans Pro", 'Times New Roman';
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
-    
+    background-image: linear-gradient(0deg, rgb(35, 35, 242) 0%, rgb(246, 246, 58) 50%, rgb(95, 249, 95) 100%);
 } 
 
+/* -------------------------------------------- MAIN -----------------------------------------------*/
 main {
     display: flex;
     align-items:flex-start;
-    justify-content: center;
-    background-image: linear-gradient(0deg, rgb(35, 35, 242) 0%, rgb(246, 246, 58) 50%, rgb(95, 249, 95) 100%);
+    justify-content: center;    
     opacity: 0.9;
     flex-direction: column;
 }
@@ -37,23 +37,6 @@ main {
     text-align: center;
     display: block;
     width: 80%;
-}
-
-aside {
-    padding: 100px 20px;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    display: block;    
-    background-color: #0098ff;    
-    height: 175%;
-    border: 1px solid white;
-    border-radius: 10px;
-}
-
-aside ul li {
-    list-style: none;
-    margin-top: 20px;
 }
 
 .mapa-svg-estados {   
@@ -92,17 +75,47 @@ aside ul li {
     height: 300px;
 }
 
+/* -------------------------------------------- MENU LATERAL -----------------------------------------------*/
+aside {
+    padding: 100px 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: block;    
+    background-color: #0098ff;    
+    height: 170%;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+aside ul li {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.menu-lateral img:hover {
+    transition: 0.5s;
+    transform: translateY(-9px);
+}
+
+/* -------------------------------------------- ARTIGO -----------------------------------------------*/
+
 #introdution-texts {
-    width: 70%;
     display: inline;
     text-align: justify;
     align-items: flex-end;
+    margin: 30px 50px;
+    margin-right: 400px;
+    line-height: 30px;
+    background-color: #e5d5d5;
 }
 
 #introdution-texts h1{
     text-align: center;
+    margin-bottom: 30px;
 }
 
+/* --------------------------------------------EQUIPE -----------------------------------------------*/
 #team {
     margin: 50px;
     padding: 20px;
@@ -110,87 +123,89 @@ aside ul li {
     text-align: center;
     align-items: center;
 }
-img:hover {
-    transition: 0.5s;
-    transform: translateY(-9px);
+
+#team img {
+    height: 400px;
 }
+
+
 
 
 
 /* ------------------------ CLASSES ESTADOS ----------------------------------- */
 
-.acre-hover {
+.state-ac {
     margin-top: -250px;
     left: 10%;
     width: 150px;
     height: 150px;
-    background-image: url(./assets/acre-m.png);
+    background-image: url(../assets/acre-m.png);
     object-fit: contain;
     position: absolute;
     transition: 0.5s ease-in-out;
 }
 
-.sao-paulo-hover {
+.state-sp {
     margin-top: -250px;
     left: 10%;
     width: 150px;
     height: 150px;
-    background-image: url(./assets/sao-paulo-m.png);
+    background-image: url(../assets/sao-paulo-m.png);
     object-fit: contain;
     position: absolute;
     transition: 0.5s ease-in-out;
 }
 
-.amazonas-hover {
+.state-am {
     margin-top: -250px;
     left: 10%;
     width: 150px;
     height: 150px;
-    background-image: url(./assets/amazonas-m.png);
+    background-image: url(../assets/amazonas-m.png);
     object-fit: contain;
     position: absolute;
     transition: 0.5s ease-in-out;
 }
 
-.para-hover {
+.state-pa {
     margin-top: -250px;
     left: 10%;
     width: 150px;
     height: 150px;
-    background-image: url(./assets/para-m.png);
+    background-image: url(../assets/para-m.png);
     object-fit: contain;
     position: absolute;
     transition: 0.5s ease-in-out;
 }
 
-.espirito-s-hover {
+.state-es {
     margin-top: -250px;
     left: 10%;
     width: 150px;
     height: 150px;
-    background-image: url(./assets/espirito-s-m.png);
+    background-image: url(../assets/espirito-s-m.png);
     object-fit: contain;
     position: absolute;
     transition: 0.5s ease-in-out;
 }
 
-.rio-hover {
+.state-rj {
     margin-top: -250px;
     left: 10%;
     width: 150px;
     height: 150px;
-    background-image: url(./assets/rio-m.png);
+    background-image: url(../assets/rio-m.png);
     object-fit: contain;
     position: absolute;
     transition: 0.5s ease-in-out;
 }
 
-.rio-g-sul-hover {
+.state-rs {
     margin-top: -250px;
     left: 10%;
     width: 150px;
     height: 150px;
-    background-image: url(./assets/rio-g-sul-m.png);
+    background-image: url(../assets/rio-g-sul-m.png);
     object-fit: contain;
     position: absolute;
     transition: 0.5s ease-in-out;
