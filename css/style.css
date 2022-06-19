@@ -11,7 +11,7 @@ body {
     font-family: "Source Sans Pro", 'Times New Roman';
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
-    background-image: linear-gradient(0deg, rgb(35, 35, 242) 0%, rgb(246, 246, 58) 50%, rgb(95, 249, 95) 100%);
+    background-image: linear-gradient(0deg, rgb(146, 200, 237) 0%, rgb(249, 241, 140) 50%, rgb(165, 243, 165) 100%);
 } 
 
 /* -------------------------------------------- MAIN -----------------------------------------------*/
@@ -22,6 +22,21 @@ main {
     opacity: 0.9;
     flex-direction: column;
 }
+
+.animation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    width: 100%;
+}
+
+video {
+    height: 500px;
+}
+
+/**/
 
 #menu {
     display: flex;
@@ -101,18 +116,112 @@ aside ul li {
 /* -------------------------------------------- ARTIGO -----------------------------------------------*/
 
 #introdution-texts {
-    display: inline;
-    text-align: justify;
-    align-items: flex-end;
-    margin: 30px 50px;
-    margin-right: 400px;
-    line-height: 30px;
-    background-color: #e5d5d5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    text-align: justify;   
+    margin: 30px auto;
+    line-height: 22px;
+    background-color: #f5f6f3;
+    padding: 30px 100px;
+    max-width: 1200px;
 }
 
-#introdution-texts h1{
+#introdution-texts h1 {
     text-align: center;
-    margin-bottom: 30px;
+    margin: 30px;
+    font-size: 36px;
+}
+
+#introdution-texts h2 {
+    margin-top: 20px;
+}
+
+.cidades, .natureza {
+    display: flex;
+}
+
+.cidades img {
+    margin-left: 10px;
+    max-width: 350px;
+}
+
+.cidades p {
+    margin-right: 10px;
+}
+
+.natureza img {
+    margin-right: 10px;
+    max-width: 350px;
+}
+
+.natureza p {
+    margin-left: 10px;
+}
+
+.gastronomia img {
+    align-items: center;
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.gastronomia p {
+    font-size: 10px;
+    align-items: center;
+    text-align: center;
+}
+/*------------------------- CARDS -------------------------*/
+
+#cards {
+    padding: 20px;
+    margin: 20px auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#cards #title-cards {
+    margin: 30px 0;
+}
+
+#cards #all-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1200px;
+}
+
+#cards #all-cards .card {
+    flex: 1;
+    padding: 20px 50px;
+}
+
+
+.cards .lista ul {
+    align-items: center;
+    justify-content: center;
+    text-align: center;    
+    flex-direction: row;    
+    padding: 20px;
+    margin: 0 auto;
+    width: 980px;
+}
+
+.cards ul li {
+    list-style: none;
+    margin-top: 20px;
+}
+
+li .card {
+    flex: 50%;
+}
+
+.card:hover {
+    transition: 0.5s;
+    transform: translateY(-9px);
 }
 
 /* --------------------------------------------EQUIPE -----------------------------------------------*/
@@ -132,7 +241,6 @@ aside ul li {
 
 
 
-/* ------------------------ CLASSES ESTADOS ----------------------------------- */
 
 .state-ac {
     margin-top: -250px;
