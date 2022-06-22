@@ -442,9 +442,6 @@ li .card {
     align-items: top;
     font-family: "Source Sans Pro", 'Times New Roman';
 }
-#carouselExampleFade {
-    width: 70%px;
-}
 
 
 @media only screen and (max-width: 430px) {
