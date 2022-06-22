@@ -140,7 +140,7 @@ aside ul li {
 }
 
 .cidades, .natureza {
-    display: flex;
+    display: block;
 }
 
 .cidades img {
