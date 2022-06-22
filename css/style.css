@@ -144,7 +144,7 @@ aside ul li {
 }
 
 .cidades img {
-    margin-left: 10px;
+    margin-left: 0px;
     max-width: 350px;
 }
 
@@ -153,7 +153,7 @@ aside ul li {
 }
 
 .natureza img {
-    margin-right: 10px;
+    margin-right: 0px;
     max-width: 350px;
 }
 
