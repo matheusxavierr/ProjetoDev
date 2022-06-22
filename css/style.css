@@ -15,6 +15,16 @@ body {
     background-image: linear-gradient(0deg, rgb(146, 200, 237) 0%, rgb(249, 241, 140) 50%, rgb(165, 243, 165) 100%);
 } 
 
+/*-------------------------------------------CARROSSEL------------------------------------------*/
+.caption, .informs {
+    font-style: italic;
+    align-items: top;
+    font-family: "Source Sans Pro", 'Times New Roman';
+    text-shadow: 0 0 0.2em #000, 0 0 0.2em #000, 0 0 0.2em #000;
+}
+
+
+
 /* -------------------------------------------- MAIN -----------------------------------------------*/
 main {
     display: flex;
@@ -34,84 +44,12 @@ main {
 }
 
 video {
-    height: 500px;
-}
-
-/**/
-
-#menu {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: 700px;
-}
-
-.map-area-transform {
-    padding-top: 100px;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    display: block;
-    width: 80%;
-}
-
-.mapa-svg-estados {   
-    
-    fill: rgb(7, 7, 6); 
-    background-image: url(./greenBase.jpg);
-    -webkit-transition: .8s ease;
-    -moz-transition: .8s ease;
-    -ms-transition: .8s ease;
-    -o-transition: .8s ease;
-    transition: .8s ease;
-    stroke: transparent;
-    stroke-dasharray: 180%;
-    stroke-dashoffset: -120%;
-    stroke-width: 2px;
-}
-
-.mapa-svg-estados:hover {
-    /*opacity: 0.6;*/
-    cursor: pointer;
-    stroke:#0098ff;
-    fill: #525252;
-    stroke-dashoffset: 0%;
-}
-
-.mapa-svg-estados-active {
-    
-    cursor: pointer;
-    stroke: #0098ff;
-    fill: #525252;
-    stroke-dashoffset: 0%;
+    height: 400px;
 }
 
 .container-img {
     width: 300px;
     height: 300px;
-}
-
-/* -------------------------------------------- MENU LATERAL -----------------------------------------------*/
-aside {
-    padding: 100px 20px;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    display: block;    
-    background-color: #0098ff;    
-    height: 170%;
-    border: 1px solid white;
-    border-radius: 10px;
-}
-
-aside ul li {
-    list-style: none;
-    margin-top: 20px;
-}
-
-.menu-lateral img:hover {
-    transition: 0.5s;
-    transform: translateY(-9px);
 }
 
 /* -------------------------------------------- ARTIGO -----------------------------------------------*/
@@ -174,7 +112,7 @@ aside ul li {
     align-items: center;
     text-align: center;
 }
-/*------------------------- CARDS -------------------------*/
+/*----------------------------------- CARDS ------------------------------------*/
 
 #cards {
     padding: 20px;
@@ -195,7 +133,7 @@ aside ul li {
     max-width: 1200px;
 }
 
-#cards #all-cards .card {
+#cards #all-cards .cardState {
     flex: 1;
     padding: 20px 50px;
 }
@@ -216,11 +154,11 @@ aside ul li {
     margin-top: 20px;
 }
 
-li .card {
+li .cardState {
     flex: 50%;
 }
 
-.card:hover {
+.cardState:hover {
     transition: 0.5s;
     transform: translateY(-9px);
 }
@@ -356,92 +294,6 @@ li .card {
     background: white;
     color: #ff5f95;
   }
-
-
-
-
-.state-ac {
-    margin-top: -250px;
-    left: 10%;
-    width: 150px;
-    height: 150px;
-    background-image: url(../assets/acre-m.png);
-    object-fit: contain;
-    position: absolute;
-    transition: 0.5s ease-in-out;
-}
-
-.state-sp {
-    margin-top: -250px;
-    left: 10%;
-    width: 150px;
-    height: 150px;
-    background-image: url(../assets/sao-paulo-m.png);
-    object-fit: contain;
-    position: absolute;
-    transition: 0.5s ease-in-out;
-}
-
-.state-am {
-    margin-top: -250px;
-    left: 10%;
-    width: 150px;
-    height: 150px;
-    background-image: url(../assets/amazonas-m.png);
-    object-fit: contain;
-    position: absolute;
-    transition: 0.5s ease-in-out;
-}
-
-.state-pa {
-    margin-top: -250px;
-    left: 10%;
-    width: 150px;
-    height: 150px;
-    background-image: url(../assets/para-m.png);
-    object-fit: contain;
-    position: absolute;
-    transition: 0.5s ease-in-out;
-}
-
-.state-es {
-    margin-top: -250px;
-    left: 10%;
-    width: 150px;
-    height: 150px;
-    background-image: url(../assets/espirito-s-m.png);
-    object-fit: contain;
-    position: absolute;
-    transition: 0.5s ease-in-out;
-}
-
-.state-rj {
-    margin-top: -250px;
-    left: 10%;
-    width: 150px;
-    height: 150px;
-    background-image: url(../assets/rio-m.png);
-    object-fit: contain;
-    position: absolute;
-    transition: 0.5s ease-in-out;
-}
-
-.state-rs {
-    margin-top: -250px;
-    left: 10%;
-    width: 150px;
-    height: 150px;
-    background-image: url(../assets/rio-g-sul-m.png);
-    object-fit: contain;
-    position: absolute;
-    transition: 0.5s ease-in-out;
-}
-
-.caption, .informs {
-    font-style: italic;
-    align-items: top;
-    font-family: "Source Sans Pro", 'Times New Roman';
-}
 
 
 @media only screen and (max-width: 430px) {
