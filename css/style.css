@@ -63,63 +63,51 @@ video {
 /* -------------------------------------------- ARTIGO -----------------------------------------------*/
 
 #introdution-texts {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;    
-    text-align: justify;   
-    margin: 30px auto;
-    line-height: 22px;
-    background-color: #f5f6f3;
-    padding: 30px 100px;
-    max-width: 1200px;
+  display: flex;
+  flex-direction: column; 
+  margin: 30px auto;    
+  background-color: #f5f6f3;
+  padding: 30px 80px;
+  width: 90%;
+}
+
+#introdution-texts p {
+  text-align: justify;
+  line-height: 22px;
+  padding-top: 10px;
 }
 
 #introdution-texts h1 {
     text-align: center;
     margin: 30px;
-    font-size: 36px;
+    font-size: 2.5em;
 }
 
 #introdution-texts h2 {
     margin-top: 20px;
 }
 
-.cidades, .natureza {
+.cidades, .natureza, .gastronomia {
     display: flex;
 }
 
-.cidades img {
-    margin-left: 0px;
-    max-width: 350px;
-}
-
-.cidades p {
-    margin-right: 10px;
+.cidades img, .natureza img, .gastronomia img {   
+  max-width: 350px;    
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border-radius: 20px;
 }
 
 .natureza img {
-    margin-right: 0px;
-    max-width: 350px;
+  float: left;
+  margin-right: 10px;
 }
 
-.natureza p {
-    margin-left: 10px;
+.cidades img, .gastronomia img{
+float: right;
+margin-left: 10px;
 }
 
-.gastronomia img {
-    align-items: center;
-    text-align: center;
-    max-width: 600px;
-    margin: 0 auto;
-    margin-top: 20px;
-}
-
-.gastronomia p {
-    font-size: 10px;
-    align-items: center;
-    text-align: center;
-}
 /*----------------------------------- CARDS ------------------------------------*/
 
 #cards {
