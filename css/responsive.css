@@ -1,4 +1,4 @@
-@media (max-width: 630px) {
+@media (max-width: 992px) {
 
     /*----------------------------------- HEADER -----------------------------------------*/
     .menu-button-container {
@@ -104,28 +104,22 @@
     }
 
     /*----------------------------------- ANIMAÇÃO -----------------------------------------*/
-
-    .animation {
-        max-width: 330px;
-        margin: 10px auto;
-    }
-
-    .animation video {
-        width: 330px;
-        height: 300px;
-    }
-
+    
+    .animation div video {
+        width: 100%;
+     }
+ 
     /*----------------------------------- ARTIGO -----------------------------------------*/
 
     main #introdution-texts {
-        padding: 30px;
+        padding: 20px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         text-align: justify;
         background-color: #f5f6f3;
-        max-width: 350px;
+        width: 90%;
     }
 
     main #introdution-texts h1 {
@@ -133,24 +127,18 @@
     }
 
     .cidades,
-    .natureza {
+    .natureza, .gastronomia {
         flex-direction: column;
         padding: 30px;
     }
 
-    .cidades div p, .natureza div p {
-        margin: 0 30px;
+    .cidades figure, .natureza figure, .gastronomia figure {
+        text-align: center;
     }
 
-    .cidades div img {
-        max-width: 300px;
-        margin-left: 0;
-    }    
-
-    .gastronomia img {
-        max-width: 300px;
-        width: 320px;
-    }
+    .cidades img, .natureza img, .gastronomia img {
+        width: 100%;
+    }  
 
     /*----------------------------------- FOOTER -----------------------------------------*/
 
