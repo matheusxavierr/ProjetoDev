@@ -1,11 +1,8 @@
+/* Responsividade elementos da home */
+
+
 @media (max-width: 992px) {
-
-    .animation div video {
-        width: 100%;
-     }
- 
-    /*----------------------------------- ARTIGO -----------------------------------------*/
-
+    
     main #introdution-texts {
         padding: 20px;
         display: flex;
@@ -27,6 +24,14 @@
         
     }  
 
+}
+
+@media (max-width:630px){
+    
+    .animation div video {
+        width: 100%;
+     }
+ 
 }
 
 @media (min-width: 630px){
