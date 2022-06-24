@@ -143,7 +143,9 @@
     }
 }
 
-/*
+/* !!! VERIFICAR SE O CÓDIGO COMENTADO ABAIXO AINDA ESTÁ EM USO !!!
+
+
 @media only screen and (max-width: 430px) {
     .map-area-transform {
         display: none;
@@ -155,8 +157,5 @@
 
 
 } 
-
-!!! VERIFICAR SE O CÓDIGO COMENTADO ACIMA AINDA ESTÁ EM USO !!!
-
 */
 
