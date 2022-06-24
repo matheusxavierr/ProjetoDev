@@ -114,22 +114,13 @@
     main #introdution-texts {
         padding: 20px;
         display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: justify;
-        background-color: #f5f6f3;
-        width: 90%;
+        flex-direction: column;        
     }
-
-    main #introdution-texts h1 {
-        line-height: 30px;
-    }
-
-    .cidades,
-    .natureza, .gastronomia {
+    
+    .cidades p,
+    .natureza p, .gastronomia p {
         flex-direction: column;
-        padding: 30px;
+        padding: 20px;         
     }
 
     .cidades figure, .natureza figure, .gastronomia figure {
@@ -137,7 +128,8 @@
     }
 
     .cidades img, .natureza img, .gastronomia img {
-        width: 100%;
+        width: 100%;     
+        
     }  
 
     /*----------------------------------- FOOTER -----------------------------------------*/
@@ -156,4 +148,18 @@
         width: 300px;
     }
 
+}
+
+@media (min-width: 630px){
+
+    .natureza img {
+        float: left;
+        margin-right: 10px;
+      }
+      
+      .cidades img, .gastronomia img{
+      float: right;
+      margin-left: 10px;
+      }
+      
 }

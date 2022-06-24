@@ -84,6 +84,7 @@ video {
 }
 
 #introdution-texts h2 {
+    text-align: center;
     margin-top: 20px;
 }
 
@@ -96,16 +97,6 @@ video {
   margin-top: 20px;
   margin-bottom: 10px;
   border-radius: 20px;
-}
-
-.natureza img {
-  float: left;
-  margin-right: 10px;
-}
-
-.cidades img, .gastronomia img{
-float: right;
-margin-left: 10px;
 }
 
 /*----------------------------------- CARDS ------------------------------------*/
