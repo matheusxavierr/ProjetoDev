@@ -1,0 +1,36 @@
+main {
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    max-width: 980px;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 20px;
+}
+  
+#form button {
+    padding: 10px 30px;
+    margin: 30px 20px;
+    border-radius: 5px;
+    align-items: center;
+    text-align: center;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    font-weight: 500;
+    background: #44bde7;
+    color: white;
+    cursor: pointer;
+}
+  
+#form button:hover {
+    background: white;
+    color: #44bde7;
+}
