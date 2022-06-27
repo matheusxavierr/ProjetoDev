@@ -1,1 +1,23 @@
 /* Estilos padrão das páginas dos estados */
+
+/*Estilos gerais da main */
+
+main h1{
+    font-size: 2.5em;
+    color: #00689C;
+    padding: 20px;
+}
+
+main p{
+    font-size: 1.1em;
+    text-align: justify;
+    padding: 10px;
+}
+
+.text-introdution{
+    padding: 10px 30px;
+}
+
+/* Estilos da seção de cards */
+
+
