@@ -75,7 +75,7 @@ main p{
     padding: 20px 10px;
 }
 
-.article-container figure img{
+.article-container > div figure img{
     width: 50%;
     max-width: 400px;
     border-radius: 10px;
