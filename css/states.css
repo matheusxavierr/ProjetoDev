@@ -55,7 +55,7 @@ main p{
 .article-container{
     display: flex;
     flex-direction: column; 
-    margin: 30px auto;    
+    margin: 30px auto;  
     background-color: #f5f6f3;
     padding: 30px;
     width: 95%;
@@ -65,19 +65,19 @@ main p{
 .article-container h2{
     text-align: center;
     color: #00689C;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
     font-size: 1.8em;
 }
 
 .article-container h3{
     text-transform: uppercase;
     font-style: unset;
-    padding: 0 10px;    
+    padding: 0 10px;  
+    padding-bottom: 20px;  
 }
 
 .article-container p{
     padding-bottom: 30px;
-    padding-top: 20px;
 }
 
 .article-container a{
@@ -94,8 +94,16 @@ main p{
     width: 50%;
     max-width: 400px;
     border-radius: 10px;
+    margin-bottom: 10px;
 }
 
+.article-container span{
+    font-style: oblique;    
+}
+
+#parqueIbirapuera, #camposJordao, #secao3{
+    margin-bottom: 80px;
+}
 
 /*Media query float images*/
 
