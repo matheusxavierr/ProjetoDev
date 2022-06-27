@@ -14,6 +14,10 @@ main p{
     padding: 10px;
 }
 
+article{
+    margin-bottom: 80px;
+}
+
 .text-introdution{
     padding: 10px 30px;
 }
@@ -99,10 +103,6 @@ main p{
 
 .article-container span{
     font-style: oblique;    
-}
-
-#parqueIbirapuera, #camposJordao, #secao3{
-    margin-bottom: 80px;
 }
 
 /*Media query float images*/
