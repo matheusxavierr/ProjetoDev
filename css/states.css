@@ -136,8 +136,8 @@ main p{
         text-align: center;
     }
 
-    .article-container figure img{
-        width: 90%;
+    .article-container > div figure img{
+        width: 100%;
         margin-bottom: 20px;
     }
 }
