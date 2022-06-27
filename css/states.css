@@ -20,4 +20,33 @@ main p{
 
 /* Estilos da seção de cards */
 
+.animation-cards{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+}
+
+.card-container{    
+    background-color: #f5f6f3;
+    width: 30%;
+    text-align: center;
+    border-radius: 20px;
+    margin: 50px auto;
+    box-shadow: 10px -5px 5px #1A2E38;
+}
+
+.card-container:hover{
+    opacity: 0.7;
+}
+
+.card-container figure img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.content p{
+    text-align: center;
+    color: #00689C;
+    font-weight: bold;
+}
 
