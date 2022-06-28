@@ -30,8 +30,20 @@
     
     .animation div video {
         width: 100%;
-     }
- 
+    }
+   /*CORREÇÃO DE RESPONSIVIDADE PÁG DE CONTATOS*/ 
+    #name{
+        width:90vw;
+    }
+   #mail{
+    width:90vw;
+   }
+   #text-area-contact{
+    width: 90vw;
+   }
+   #submit-contact{
+    width: 25vw;
+   }
 }
 
 @media (min-width: 630px){
@@ -57,5 +69,11 @@
       float: right;
       margin-left: 10px;
       }
-      
+      /*CORREÇÃO RESPONSIVIDADE BOTÃO DA PÁG DE CONTATOS*/
+      #submit-contact {
+        width: 8vw;
+    }
 }
+
+
+    
