@@ -33,14 +33,13 @@ main h1 {
 }
   #text-area-contact{
     height: 30vh;
-    width: 45vw;
+    
     margin-top: 1.5vh;
     
   }
   
 #submit-contact {
-   width: 8vw;
-   height: 7vh;
+    height: 7vh;
    margin-top: 4vh;
     border-radius: 5%;
     align-items: center;
