@@ -41,6 +41,8 @@ article{
 
 .card-container:hover{
     opacity: 0.7;
+    transform: translateY(-15px);
+    transition: 0.5s;
 }
 
 .card-container figure img{
