@@ -39,9 +39,7 @@
                             <li>
                                 <a href="./team.html">Equipe</a>
                             </li>
-                            <li>
-                                <a href="#">Contato</a>
-                            </li>
+                            
                         </ul>
                     </nav>
                 </div>
@@ -50,22 +48,18 @@
     </header>
     
     <main>
-        <h1>Olá! Que bom ver você por aqui.</h1>
-        <p>Se tiver um tempinho nos conte como foi sua experiência com nosso site, mande críticas/sugestões ou então um testemunho de sua viagem a algum dos pontos turísticos que apresentamos.</p>
-        <form action="" id="form">
-            <label for="name">Nome</label>
-            <input type="text" id="name">
-            <label for="mail">E-mail</label>
-            <input type="email" id="mail">
-            <label for="subject">Assunto</label>
-            <select name="" id="subject">
-                <option value="Experiência com o site">Experiência com o site</option>
-                <option value="Críticas/Sugestões">Críticas/Sugestões</option>
-                <option value="Testemunho">Testemunho</option>
-            </select>
-            <label for="msg">Menssagem</label>
-            <textarea name="msg" id="" cols="30" rows="10"></textarea>
-            <button>Enviar</button>
+        <h1>Olá, envie-nos uma mensagem!</h1>
+        
+        <form action="" id="contact-form">
+            <input class="form-contact" type="text" id="name" placeholder="Nome" autofocus>
+           
+            <input class="form-contact" type="email" id="mail" placeholder="E-mail">
+            
+            
+            
+            <textarea class="form-contact" name="msg" id="text-area-contact" cols="30" rows="10" placeholder="Escreva sua mensagem"></textarea>
+            <input id="submit-contact" type="submit" value="Enviar">
+            
         </form>
     </main>
 

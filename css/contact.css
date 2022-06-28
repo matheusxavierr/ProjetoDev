@@ -1,24 +1,48 @@
 main {
     display: flex;
     flex-direction: column;
-    margin: 20px auto;
-    justify-content: center;
+    margin: 4vh auto;
+    
     text-align: center;
     align-items: center;
-    max-width: 980px;
+    width: 100vw;
+}
+main h1 {
+    margin-bottom: 4vh;
 }
 
-#form {
+#contact-form {
     display: flex;
     flex-direction: column;
+    
     margin: 0 auto;
-    padding: 20px;
+    
 }
+.form-contact{
+    display: flex;
+    flex-direction: column;
+    width: 45vw;
+    height: 7vh;
+   border-radius: 2%;
+   box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+#mail{
+    margin-top: 1.5vh;
+}
+  #text-area-contact{
+    height: 30vh;
+    width: 45vw;
+    margin-top: 1.5vh;
+    
+  }
   
-#form button {
-    padding: 10px 30px;
-    margin: 30px 20px;
-    border-radius: 5px;
+#submit-contact {
+   width: 8vw;
+   height: 7vh;
+   margin-top: 4vh;
+    border-radius: 5%;
     align-items: center;
     text-align: center;
     border: none;
@@ -30,7 +54,15 @@ main {
     cursor: pointer;
 }
   
-#form button:hover {
+#submit-contact:hover {
     background: white;
     color: #44bde7;
+}
+
+/*FOOTER TEMPORÁRIO PARA MANTER PÁG SEM ROLAGEM ENQUANTO FOOTER É DESENVOLVIDO*/
+footer .copyright{
+    bottom: 20vh;
+    position: absolute;
+bottom: 0;
+width: 100vw;
 }
