@@ -8,10 +8,26 @@
     align-items: center;
 }
 
+.firstrow {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 60px;
+}
+
+.secondrow {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+
 .cardteam {
     position: relative;
-    width: 350px;
-    height: 190px;
+    width: 300px;
+    height: 140px;
     background: white;
     border-radius: 20px;
     box-shadow: 0 35px 80px rgba(0, 0, 0, 0.15);
@@ -19,7 +35,7 @@
   }
   
   .cardteam:hover {
-    height: 450px;
+    height: 400px;
   }
   
   .imgBx {
@@ -34,11 +50,12 @@
     box-shadow: 0 15px 50px rgba(0, 0, 0, 0.35);
     overflow: hidden;
     transition: 0.5s;
+    opacity: 0.9;
   }
   
   .cardteam:hover .imgBx {
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
   }
   
   .imgBx img {
@@ -74,28 +91,28 @@
   }
   
   .cardteam .content .details h2 {
-    font-size: 1.25em;
+    font-size: 1.10em;
     font-weight: 600;
-    color: #555;
+    color: #000000;
     line-height: 1.2em;
   }
   
   .cardteam .content .details h2 span {
-    font-size: 0.75em;
+    font-size: 0.8em;
     font-weight: 500;
-    opacity: 0.5;
+    opacity: 0.7;
   }
   
   .cardteam .content .details .data {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin: 20px 0;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 22px 40px;
   }
   
   .cardteam .content .details .data h3 {
     font-size: 1em;
-    color: #555;
+    color: #000000;
     line-height: 1.2em;
     font-weight: 600;
     margin-bottom: 20px;
@@ -104,7 +121,7 @@
   .cardteam .content .details .data h3 span {
     font-size: 0.85em;
     font-weight: 400;
-    opacity: 0.5;
+    opacity: 0.7;
   }
   
   .cardteam .content .details .actionBtn {
@@ -114,21 +131,26 @@
   }
   
   .cardteam .content .details .actionBtn button {
-    padding: 10px 30px;
+    padding: 10px;
     margin: 0 20px;
     border-radius: 5px;
     border: none;
     outline: none;
-    font-size: 1em;
-    font-weight: 500;
-    background: #ff5f95;
-    color: white;
+    font-size: 0.96em;
+    font-weight: 600;
+    background: #44bee7;
+    color: #ffffff;
     cursor: pointer;
   }
   
   .cardteam .content .details .actionBtn button:hover {
-    background: white;
-    color: #ff5f95;
+    background: #d3f197;
+    color: #44bee7;
+  }
+
+  button a {
+    color: white;
+    text-decoration: none;
   }
 
 /* Responsividade mobile */
