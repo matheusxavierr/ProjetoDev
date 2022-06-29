@@ -7,17 +7,19 @@ header {
 header .logo {
     padding: 10px;
     width: 250px;
-    height: 100px;
+    height: 13vh;
 }
 
 header .container{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    max-width: 980px;
-    height: 80px;
+    width: 100vw;
+    height: 13vh;
     margin: auto;
 }
+
+
 
 header nav ul{
     display: flex;
@@ -41,7 +43,7 @@ header nav ul li a:hover {
 }
 
 #checkbox-menu{
-    display:none
+    display:none;
 }
 
 /* Responsividade mobile */

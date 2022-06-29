@@ -7,13 +7,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/contact.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <title>Mapa - Brasil</title>
+    <link rel="stylesheet" href="css/responsive.css">
+    <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">-->
+    <title>Brasileirismo</title>
 </head>
 
 <body>
@@ -39,9 +38,7 @@
                             <li>
                                 <a href="./team.html">Equipe</a>
                             </li>
-                            <li>
-                                <a href="#">Contato</a>
-                            </li>
+                            
                         </ul>
                     </nav>
                 </div>
@@ -50,22 +47,18 @@
     </header>
     
     <main>
-        <h1>Olá! Que bom ver você por aqui.</h1>
-        <p>Se tiver um tempinho nos conte como foi sua experiência com nosso site, mande críticas/sugestões ou então um testemunho de sua viagem a algum dos pontos turísticos que apresentamos.</p>
-        <form action="" id="form">
-            <label for="name">Nome</label>
-            <input type="text" id="name">
-            <label for="mail">E-mail</label>
-            <input type="email" id="mail">
-            <label for="subject">Assunto</label>
-            <select name="" id="subject">
-                <option value="Experiência com o site">Experiência com o site</option>
-                <option value="Críticas/Sugestões">Críticas/Sugestões</option>
-                <option value="Testemunho">Testemunho</option>
-            </select>
-            <label for="msg">Menssagem</label>
-            <textarea name="msg" id="" cols="30" rows="10"></textarea>
-            <button>Enviar</button>
+        <h1>Olá, envie-nos uma mensagem!</h1>
+        
+        <form action="" id="contact-form">
+            <input class="form-contact" type="text" id="name" placeholder="Nome" autofocus>
+           
+            <input class="form-contact" type="email" id="mail" placeholder="E-mail">
+            
+            
+            
+            <textarea class="form-contact" name="msg" id="text-area-contact" cols="30" rows="10" placeholder="Escreva sua mensagem"></textarea>
+            <input id="submit-contact" type="submit" value="Enviar">
+            
         </form>
     </main>
 
@@ -75,10 +68,10 @@
         </div>
     </footer>
     <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    <!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
         crossorigin="anonymous"></script>
-    <script src="main.js"></script>
+    <script src="main.js"></script>-->
 </body>
 
 </html>

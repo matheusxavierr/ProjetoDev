@@ -33,13 +33,9 @@ video {
    max-width: 450px;
 }
 
-/*  !!! VERIFICAR SE CÓDIGO COMENTADO ABAIXO AINDA ESTÁ EM USO !!!
-.container-img {
-    width: 300px;
-    height: 300px;
-}
 
-/* -------------------------------------------- ARTIGO -----------------------------------------------*/
+ /*-------------------------------------------- ARTIGO -----------------------------------------------*/
+
 
 #introdution-texts {
   display: flex;
@@ -128,4 +124,5 @@ li .cardState {
 .cardState:hover {
     transition: 0.5s;
     transform: translateY(-9px);
+    -webkit-transform: scale(1.5);
 }
