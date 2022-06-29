@@ -124,4 +124,5 @@ li .cardState {
 .cardState:hover {
     transition: 0.5s;
     transform: translateY(-9px);
+    -webkit-transform: scale(1.5);
 }
