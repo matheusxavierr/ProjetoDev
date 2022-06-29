@@ -15,7 +15,7 @@ header .container{
     align-items: center;
     justify-content: space-between;
     width: 100vw;
-    height: 13vh;
+    height: 11vh;
     margin: auto;
 }
 
@@ -43,7 +43,7 @@ header nav ul li a:hover {
 }
 
 #checkbox-menu{
-    display:none
+    display:none;
 }
 
 /* Responsividade mobile */
