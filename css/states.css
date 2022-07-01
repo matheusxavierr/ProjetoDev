@@ -45,9 +45,11 @@ article{
     transition: 0.5s;
 }
 
+/*height definido em 240px para todas as imagens dos cards, estava havendo divergências de estado para estado*/
 .card-container figure img{
     width: 100%;
     border-radius: 20px;
+    height: 280px;
 }
 
 .content p{
@@ -141,5 +143,12 @@ article{
     .article-container > div figure img{
         width: 100%;
         margin-bottom: 20px;
+    }
+}
+
+/*height definido em 200px para todas as imagens dos cards em resolução abaixo de 1100px*/
+@media (max-width:1100px) {
+    .card-container figure img{
+        height: 200px;
     }
 }

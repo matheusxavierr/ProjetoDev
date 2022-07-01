@@ -14,7 +14,7 @@ header .container{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100vw;
+    width: 98vw;
     height: 13vh;
     margin: auto;
 }
