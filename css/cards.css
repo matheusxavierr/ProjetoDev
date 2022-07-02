@@ -1,5 +1,12 @@
 /* Estilos personalizados dos cards */
 
+.all-cards h2{
+    color: #00689C;
+    text-align: center;
+    font-weight: 700;
+    padding: 30px;
+    text-transform: uppercase;
+}
 
 .page-cards{
     display: flex;
@@ -27,7 +34,7 @@
     border-radius: 10%;
 }
 
-p{
+.botton-card p{
     text-align: center;
     color: #00689C;
     font-weight: bold;
