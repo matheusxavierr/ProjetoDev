@@ -74,6 +74,69 @@ video {
   border-radius: 20px;
 }
 
+/* Responsividade elementos da home */
+
+
+@media (max-width: 992px) {
+    
+    main #introdution-texts {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;        
+    }
+    
+    .cidades p,
+    .natureza p, .gastronomia p {
+        flex-direction: column;
+        padding: 20px;         
+    }
+
+    .cidades figure, .natureza figure, .gastronomia figure {
+        text-align: center;
+    }
+
+    .cidades img, .natureza img, .gastronomia img {
+        width: 100%;     
+        
+    }  
+
+}
+
+@media (max-width:630px){
+    
+    .animation div video {
+        width: 100%;
+    }
+  
+}
+
+@media (min-width: 630px){
+    /*CORREÇÃO DOS BOTÕES E TEXTO DO CARROSSEL PARA TELAS MAIORES*/
+    .carousel-inner{
+        width: 100vw;
+        height: 87vh;
+    }
+    .carousel-fade h1 {
+       margin-bottom: 1.5vh;;
+        
+    }
+    .carousel-fade p{
+    
+    margin-bottom:20vh;
+    }
+    .natureza img {
+        float: left;
+        margin-right: 10px;
+      }
+      
+      .cidades img, .gastronomia img{
+      float: right;
+      margin-left: 10px;
+      }
+      
+}
+
+
 
 /*----------------------------------- CARDS ------------------------------------*/
 
