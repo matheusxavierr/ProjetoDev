@@ -1,0 +1,44 @@
+/* Estilos personalizados dos cards */
+
+.all-cards h2{
+    color: #00689C;
+    text-align: center;
+    font-weight: 700;
+    padding: 30px;
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+.page-cards{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.botton-card{    
+    width: 250px;
+    height: 230px;
+    text-align: center;
+}
+
+.botton-card:hover{
+    transition: 0.5s;
+    transform: translateY(-9px);
+    opacity: 0.7;
+}
+
+.botton-card figure img{
+    width: 100%;
+    height: 180px;
+    border-radius: 20px;
+    box-shadow: 0 0 1em black;    
+}
+
+.botton-card p{
+    text-align: center;
+    color: #00689C;
+    font-weight: bold;
+    margin: 15px;
+}
