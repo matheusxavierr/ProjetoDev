@@ -1,9 +1,10 @@
-*Read this in other languages: [:brazil:](README.pt.md), [🇺🇲](README.md)
+[:brazil:](README.pt.md)
 <h1 align="center">
-  <p align="center"><img src="https://github.com/matheusxavierr/ProjetoDev/blob/main/Images/justLogo.jpeg?raw=true" alt="Brasileirismo" width="50px" height="50px"> Brasileirismo</p>
+  <a href="https://matheusxavierr.github.io/ProjetoDev/"><img src="https://raw.githubusercontent.com/matheusxavierr/ProjetoDev/main/assets/logo.jpeg" alt="Brasileirismo" width="250px" height="75px"></a>
   </h1>
+  
   <!--colocar pág inicial-->
-  <a><img src="https://github.com/matheusxavierr/ProjetoDev/blob/main/Images/justLogo.jpeg?raw=true" alt="Brasileirismo" width="90%" height="500px"></a>
+  <a><img src="https://github.com/matheusxavierr/ProjetoDev/blob/main/Images/home-brasileirismo.jpg" alt="Brasileirismo" width="90%" height="500px"></a>
 
 <h3># Project Description :page_with_curl:</h3>
 <p>## Project made by aspiring developers about a travel platform in order to test their knowledge and provide a teamwork learning experience.</p>
