@@ -19,13 +19,26 @@ article{
 }
 
 .text-introdution{
+    font-size: 1.2em;
     padding: 10px 30px;
+}
+
+.text-introdution a{    
+    text-decoration: none;
+    color: #00689C;
+    font-weight: bold;
+}
+
+.text-introdution a:hover{
+    text-decoration: underline;
 }
 
 /* Estilos da seção de cards */
 
 .animation-cards{
     display: flex;
+    height: 450px;
+    align-items: center;
     justify-content: space-around;
     margin: 30px;
 }
@@ -33,9 +46,9 @@ article{
 .card-container{    
     background-color: #f5f6f3;
     width: 30%;
+    height: 60%;
     text-align: center;
     border-radius: 20px;
-    margin: 50px auto;
     box-shadow: 10px -5px 5px #1A2E38;
 }
 
@@ -52,6 +65,7 @@ article{
 }
 
 .card-container figure{ 
+    width: 100%;
     height: 80%;
 }
 
@@ -116,7 +130,7 @@ article{
 
 /*Media query float images*/
 
-@media (min-width:630px){
+@media (min-width:730px){
     .image-left img{
         float: left;
         margin-right: 10px;
@@ -130,15 +144,28 @@ article{
 
 /*Responsividade mobile */
 
-@media (max-width:630px){
+@media (max-width:730px){
+
+    .text-introdution{        
+        margin-bottom: 70px;
+    }
+
+    /* Responsividade dos cards */
     .animation-cards{
+        height: 100%;
         justify-content: center;
         flex-direction: column;
     }
 
     .card-container{
-        width: 90%;
-        max-width: 450px;
+        width: 300px;
+        height: 280px;
+        margin-bottom: 70px;
+    }
+
+    /*Responsividade da seção de artigos */
+    .article-container{
+        padding: 15px;        
     }
 
     .article-container figure{
@@ -146,7 +173,8 @@ article{
     }
 
     .article-container > div figure img{
-        width: 100%;
+        width: 90%;
+        max-width: 450px;
         margin-bottom: 20px;
     }
 }
