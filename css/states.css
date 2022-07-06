@@ -23,6 +23,16 @@ article{
     padding: 10px 30px;
 }
 
+.text-introdution a{    
+    text-decoration: none;
+    color: #00689C;
+    font-weight: bold;
+}
+
+.text-introdution a:hover{
+    text-decoration: underline;
+}
+
 /* Estilos da seção de cards */
 
 .animation-cards{
