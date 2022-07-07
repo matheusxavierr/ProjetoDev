@@ -1,183 +1,204 @@
 /* Estilos personalizados da página team */
-
-#team {
-    margin: 50px;
-    padding: 20px;
-    line-height: 50px;
-    text-align: center;
-    align-items: center;
+* {
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.firstrow {
+main {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin-top: 60px;
+  padding: 20px 20px;
+  margin-right: 20px;
 }
 
-.secondrow {
+.card-container {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  margin-top: 100px;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: stretch;
+  height: 500px;
+  width: 270px;
+  background-color: white;
+  padding: 30px 30px 10px 30px;
+  border-radius: 20px;
 }
 
-.cardteam {
-    position: relative;
-    width: 300px;
-    height: 140px;
-    background: white;
-    border-radius: 20px;
-    box-shadow: 0 35px 80px rgba(0, 0, 0, 0.15);
-    transition: 0.5s;
-  }
-  
-  .cardteam:hover {
-    height: 400px;
-  }
-  
-  .imgBx {
-    position: absolute;
-    left: 50%;
-    top: -50px;
-    transform: translateX(-50%);
-    width: 150px;
-    height: 150px;
-    background: white;
-    border-radius: 20px;
-    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.35);
-    overflow: hidden;
-    transition: 0.5s;
-    opacity: 0.9;
-  }
-  
-  .cardteam:hover .imgBx {
-    width: 200px;
-    height: 200px;
-  }
-  
-  .imgBx img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  
-  .cardteam .content {
-    position: absolute;
-    width: 100%;
-    height: 100%;
+.card-header {
+  display: flex;
+  height: auto;
+  width: auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 500px 0;
+  background: none;
+}
+
+.user-profile-image1 {
+  background-image: url(/Images/teamphotos/jessica.jpeg);
+  background-size: cover;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid #44bee7;
+}
+
+.user-profile-image2 {
+  background-image: url(/Images/teamphotos/wesley.jpg);
+  background-size: cover;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid #44bee7;
+}
+
+.user-profile-image3 {
+  background-image: url(/Images/teamphotos/wellington.jpeg);
+  background-size: cover;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid #44bee7;
+}
+
+.user-profile-image4 {
+  background-image: url(/Images/teamphotos/cristiane.jpeg);
+  background-size: cover;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid #44bee7;
+}
+
+.user-profile-image5 {
+  background-image: url(/Images/teamphotos/jaqueline.jpg);
+  background-size: cover;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid #44bee7;
+}
+
+.user-profile-image6 {
+  background-image: url(/Images/teamphotos/mario.jpeg);
+  background-size: cover;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid #44bee7;
+}
+
+.user-profile-image7 {
+  background-image: url(/Images/teamphotos/thiago.jpg);
+  background-size: cover;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid #44bee7;
+}
+
+.user-profile-image8 {
+  background-image: url(/Images/teamphotos/rodrigo);
+  background-size: cover;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid #44bee7;
+}
+
+
+.username {
+  margin-top: 10px;
+  line-height: 1.5;
+  font-weight: 600;
+  color: #44bee7;
+  font-size: x-large;
+}
+
+.user-bio {
+  color: #44bee7;
+  font-weight: 600;
+  font-size: medium;
+}
+
+.about-section {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  column-gap: 48px;
+  margin: 20% 0 20% 0;
+}
+
+.about-item {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: #44bee7;
+}
+
+.item-value {
+  font-weight: 700;
+}
+
+.item-label {
+  font-size: 0.75rem;
+}
+
+.card-footer {
+  width: 100%;
+}
+
+.follow-btn {
+  background: #44bee7;
+  width: 100%;
+  outline: none;
+  border: none;
+  padding: 10px 0px;
+  border-radius: 20px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: white;
+  margin: 5px 0;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:visited {
+  color: white;
+}
+
+@media only screen and (max-width: 400px){
+  main {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    align-items: flex-end;
-    overflow: hidden;
-  }
-  
-  .cardteam .content .details {
-    padding: 5px;
-    text-align: center;
-    width: 100%;
-    transition: 0.5s;
-    transform: translateY(150px);
-  }
-  
-  .cardteam:hover .content .details {
-    transform: translateY(0px);
-  }
-  
-  .cardteam .content .details h2 {
-    font-size: 1.10em;
-    font-weight: 600;
-    color: #000000;
-    line-height: 1.2em;
-  }
-  
-  .cardteam .content .details h2 span {
-    font-size: 0.8em;
-    font-weight: 500;
-    opacity: 0.7;
-  }
-  
-  .cardteam .content .details .data {
-    display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: space-around;
-    margin: 22px 40px;
+    padding: 20px 20px;
+    margin-right: 20px;
   }
-  
-  .cardteam .content .details .data h3 {
-    font-size: 1em;
-    color: #000000;
-    line-height: 1.2em;
-    font-weight: 600;
+
+  .card-container {
     margin-bottom: 20px;
   }
-  
-  .cardteam .content .details .data h3 span {
-    font-size: 0.85em;
-    font-weight: 400;
-    opacity: 0.7;
-  }
-  
-  .cardteam .content .details .actionBtn {
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
-  }
-  
-  .cardteam .content .details .actionBtn button {
-    padding: 10px;
-    margin: 0 20px;
-    border-radius: 5px;
-    border: none;
-    outline: none;
-    font-size: 0.96em;
-    font-weight: 600;
-    background: #44bee7;
-    color: #ffffff;
-    cursor: pointer;
-  }
-  
-  .cardteam .content .details .actionBtn button:hover {
-    background: #d3f197;
-    color: #44bee7;
-  }
-
-  button a {
-    color: white;
-    text-decoration: none;
-  }
-
-/* Responsividade mobile */
-
-@media only screen and (max-width: 630px){
-    #team {
-        margin: 20px;
-    }
-
-    #team img {
-        width: 300px;
-    }
 }
 
-/* !!! VERIFICAR SE O CÓDIGO COMENTADO ABAIXO AINDA ESTÁ EM USO !!!
-
-
-@media only screen and (max-width: 430px) {
-    .map-area-transform {
-        display: none;
-    }
-
-    aside {
-        width: 100%;
-    }
-
-
-} 
-*/
+@media only screen and (min-width: 870px){
+  main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px 20px;
+    margin-right: 20px;
+  }
+  .card-container {
+    margin-bottom: 20px;
+}
+}
 
