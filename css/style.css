@@ -51,6 +51,11 @@ footer{
   display: flex;
   justify-content: center; 
 }
+@media screen and (max-width: 600px) {
+  #footer-content {
+    display: none;
+  }
+}
 
 
 #footer-content p{
