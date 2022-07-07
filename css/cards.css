@@ -1,4 +1,8 @@
 /* Estilos personalizados dos cards */
+.all-cards {
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
 .all-cards h2{
     color: #00689C;
