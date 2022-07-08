@@ -18,8 +18,8 @@ main {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: stretch;
-  height: 500px;
-  width: 270px;
+  height: 380px;
+  width: 220px;
   background-color: white;
   padding: 30px 30px 10px 30px;
   border-radius: 20px;
@@ -40,8 +40,8 @@ main {
 .user-profile-image1 {
   background-image: url(/Images/teamphotos/jessica.jpeg);
   background-size: cover;
-  width: 150px;
-  height: 150px;
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
   border: 5px solid #44bee7;
 }
@@ -49,8 +49,8 @@ main {
 .user-profile-image2 {
   background-image: url(/Images/teamphotos/wesley.jpg);
   background-size: cover;
-  width: 150px;
-  height: 150px;
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
   border: 5px solid #44bee7;
 }
@@ -58,8 +58,8 @@ main {
 .user-profile-image3 {
   background-image: url(/Images/teamphotos/wellington.jpeg);
   background-size: cover;
-  width: 150px;
-  height: 150px;
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
   border: 5px solid #44bee7;
 }
@@ -67,8 +67,8 @@ main {
 .user-profile-image4 {
   background-image: url(/Images/teamphotos/cristiane.jpeg);
   background-size: cover;
-  width: 150px;
-  height: 150px;
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
   border: 5px solid #44bee7;
 }
@@ -76,8 +76,8 @@ main {
 .user-profile-image5 {
   background-image: url(/Images/teamphotos/jaqueline.jpg);
   background-size: cover;
-  width: 150px;
-  height: 150px;
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
   border: 5px solid #44bee7;
 }
@@ -85,8 +85,8 @@ main {
 .user-profile-image6 {
   background-image: url(/Images/teamphotos/mario.jpeg);
   background-size: cover;
-  width: 150px;
-  height: 150px;
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
   border: 5px solid #44bee7;
 }
@@ -94,8 +94,8 @@ main {
 .user-profile-image7 {
   background-image: url(/Images/teamphotos/thiago.jpg);
   background-size: cover;
-  width: 150px;
-  height: 150px;
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
   border: 5px solid #44bee7;
 }
@@ -103,32 +103,60 @@ main {
 .user-profile-image8 {
   background-image: url(/Images/teamphotos/rodrigo);
   background-size: cover;
-  width: 150px;
-  height: 150px;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 5px solid #44bee7;
+}
+
+.user-profile-image9 {
+  background-image: url(/Images/teamphotos/ana);
+  background-size: cover;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 5px solid #44bee7;
+}
+
+.user-profile-image10 {
+  background-image: url(/Images/teamphotos/juliana);
+  background-size: cover;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 5px solid #44bee7;
+}
+
+.user-profile-image11 {
+  background-image: url(/Images/teamphotos/yashina.jpg);
+  background-size: cover;
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
   border: 5px solid #44bee7;
 }
 
 
 .username {
-  margin-top: 10px;
+  margin-top: 5px;
   line-height: 1.5;
   font-weight: 600;
   color: #44bee7;
-  font-size: x-large;
+  font-size: 1.1rem;
 }
 
 .user-bio {
   color: #44bee7;
   font-weight: 600;
-  font-size: medium;
+  font-size: 0.8rem;
 }
 
 .about-section {
   display: grid;
   grid-template-columns: repeat(2, 2fr);
-  column-gap: 48px;
-  margin: 20% 0 20% 0;
+  column-gap: 25px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .about-item {
@@ -148,20 +176,24 @@ main {
 
 .card-footer {
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .follow-btn {
   background: #44bee7;
-  width: 100%;
+  width: 80%;
   outline: none;
   border: none;
   padding: 10px 0px;
   border-radius: 20px;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 700;
   color: white;
   margin: 5px 0;
   cursor: pointer;
+  justify-content: center;
 }
 
 a {
@@ -188,7 +220,7 @@ a:visited {
   }
 }
 
-@media only screen and (min-width: 870px){
+@media only screen and (min-width: 400px){
   main {
     display: flex;
     flex-direction: row;
