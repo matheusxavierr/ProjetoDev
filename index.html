@@ -30,16 +30,13 @@
                     <nav>
                         <ul class="menu">
                             <li>
-                                <a href="#home">Home</a>
-                            </li>
-                            <li>
                                 <a href="#cards">Locais</a>
                             </li>
                             <li>
                                 <a href="./team.html">Equipe</a>
                             </li>
                             <li>
-                                <a href="./contact.html">Contato</a>
+                                <a href="#footer-content">Contato</a>
                             </li>
                         </ul>
                     </nav>
@@ -286,15 +283,16 @@
 
                 <p>Conte o que você achou do site! Fale sobre sua visita a um dos lugares turísticos ou deixe-nos sugestões para melhorar! Queremos ouvir sua opnião!</p>
 
-                <form action="" id="contact-form">
-                    <label for="name">Nome:</label>
-                    <input class="form-contact" type="text" id="name" placeholder="Nome Completo">
-                    <label for="email">E-mail:</label>
-                    <input class="form-contact" type="email" id="mail" placeholder="E-mail">
+                <form action="https://formspree.io/f/xgedjnyz" id="contact-form" method="post">
+                    
+                    <input class="form-contact" type="text" id="name" placeholder="Nome Completo" name="nome">
+                    
+                    <input class="form-contact" type="email" id="mail" placeholder="E-mail" name="email">
 
-                    <textarea class="form-contact" name="msg" id="message" cols="30" rows="5" placeholder="Mensagem"></textarea>
+                    <textarea class="form-contact" name="msg" id="message" cols="30" rows="5" placeholder="Mensagem" name="Mensagem"></textarea>
                     <br>
                     <input id="submit-contact" type="submit" value="Enviar">
+                    
                 </form>
 
 

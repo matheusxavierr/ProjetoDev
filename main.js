@@ -1,4 +1,12 @@
-const acre = document.getElementById("state-ac");
+//LIMPA FORMULÁRIO DE CONTATO APÓS ENVIO
+window.onbeforeunload = () => {
+    for(const form of document.getElementsByTagName('form')) {
+      form.reset();
+    }
+  }
+
+
+/* const acre = document.getElementById("state-ac");
 const espiritoSanto = document.getElementById("state-es");
 const rioDeJaneiro = document.getElementById("state-rj");
 const saoPaulo = document.getElementById("state-sp");
@@ -27,4 +35,4 @@ function mouseOutDisablesImg() {
             return;
         }
     })
-}
+} */
