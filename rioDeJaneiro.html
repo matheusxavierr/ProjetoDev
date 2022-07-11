@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/cards.css">
     <link rel="stylesheet" href="css/states.css">
     <link rel="icon" href="./assets/BRASLEIRISMO__.png" type="image/x-icon">
@@ -464,16 +465,18 @@
         </div>
 
     </section>
-    
-    <a class="btn-back-top" href="#header" role="button">Voltar ao topo</a>
+
+    <div class="btnScrollToTop" data-scroll="up" type="button">
+        <img src="./assets/top-arrow-circle-svgrepo-com.svg" alt="Scroll to top" />
+      </div>
 
     <footer>
+
 
         <section id="footer-content">
             <div class="media-content">
                 <div id="logo-style"  class= "text-justify">
-                    <img id="logo-tipo" src="./assets/BRASLEIRISMO__.png">
-                    <span>Brasileirismo</span>
+                    <img id="logo-tipo" src="./assets/logo-footer (2).png">
 
                 </div>
 
@@ -486,9 +489,10 @@
                     <a href="#"><img src="./Images/icons/twitter-icon.png" class="icons-media"></a>
                     <a href="#"><img src="./Images/icons/linkedin-icon.png" class="icons-media"></a>
                     <a href="#"><img src="./Images/icons/youtube-icon.png" class="icons-media"></a>
+                    <a href="#"><img src="./Images/icons/whatsapp-icon.png" class="icons-media"></a>
                 </figure>
 
-                <p>Conheça mais sobre o projeto acessando o <a href="#">Git Hub</a></p>
+                <p>Conheça mais sobre o projeto acessando o <a href="https://github.com/matheusxavierr/ProjetoDev" target="_blank">Git Hub</a></p>
                 <p>Conheça a <a href="./team.html">Equipe DreamTeam</a></p>
 
                 
@@ -502,10 +506,11 @@
                 <form action="" id="contact-form">
                     <label for="name">Nome:</label>
                     <input class="form-contact" type="text" id="name" placeholder="Nome Completo"> 
+                    <br>
                     <label for="email">E-mail:</label>
                     <input class="form-contact" type="email" id="mail" placeholder="E-mail">
                     
-                    <textarea class="form-contact" name="msg" id="message" cols="30" rows="5" placeholder="Mensagem"></textarea>
+                    <textarea class="form-contact" name="msg" id="message" rows="5" placeholder="Mensagem"></textarea>
                     <br>
                     <input id="submit-contact" type="submit" value="Enviar">
                 </form>
@@ -513,11 +518,12 @@
 
             </div>
         </section>
-
         <div class="copyright">
             <p>Desenvolvido por <b>DreamTeam - TechAcademy</b> &copy; 2022</p>
         </div>
     </footer>
+
+    <script src="./JS/ButtonTop.js"></script>
 
 
 </body>
