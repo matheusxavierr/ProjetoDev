@@ -35,5 +35,8 @@ body {
   display: none;
 }
 
-
+#icon-btn {
+  font-size: 2rem;
+  color: #0a7396;
+}
 
