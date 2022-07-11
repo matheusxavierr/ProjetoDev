@@ -40,7 +40,7 @@ body {
 
 footer{
   font-size: 0.9em;
-  background-color: #f6ebdd;
+  background-color: #C4EFF5;
 }
 
 #footer-content{ 
@@ -50,36 +50,6 @@ footer{
 .contact{
   justify-content: space-around;
 }
-.form-contact{
-  display: flex;
-  flex-direction: row;
-  box-shadow: 0 0 0 0;
-    border: 0 none;
-    outline: 0;
-    width: 80%;
-    margin-left: 10%;
-}
-#submit-contact {
-  height: 7vh;
-  width: 10%;
-  margin-left: 10%;
-  border-radius: 15%;
-  align-items: center;
-  text-align: center;
-  border: none;
-  outline: none;
-  font-size: 1em;
-  font-weight: 500;
-  background: #44bde7;
-  color: white;
-  cursor: pointer;
-}
-@media screen and (max-width: 600px) {
-  #footer-content {
-    display: none;
-  }
-}
-
 
 #footer-content p{
   text-align: center;
@@ -87,8 +57,7 @@ footer{
 }
 
 .media-content{
-  border-right: 1px solid #00689C;
-  border-bottom: 1px solid #00689C;
+  border-right: 1px dashed #00689C;
   width: 49%;
   text-align: center;
 }
@@ -102,22 +71,20 @@ footer{
   margin-bottom: 10px;
 }
 
-.media-content span{
-  font-size: 2em;
-  padding: 10px;
-  text-transform: uppercase;
-  text-decoration:wavy;
-}
-
 #logo-tipo{  
-  text-align: justify;
-  width: 50px;
-  height: 50px;
+  width: 50%;
 }
 
 .icons-media{  
   width: 35px;
   height: 35px;
+}
+
+
+.media-content p a{
+  text-decoration: none;
+  color: #00689C;
+  font-weight: bold;
 }
 
 .contact{
@@ -127,7 +94,11 @@ footer{
   justify-content: center ;
   text-align: justify;
   width: 49%;
-  border-bottom: 1px solid #00689C;
+}
+
+#contact-form{
+  text-align: center;  
+
 }
 
 .media-content h4{
@@ -135,15 +106,80 @@ footer{
 }
 
 .contact label, .contact input{
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
-.contact input{
+.contact label{
+  font-weight: bold;
+  color: #00689C;
+}
+
+input{
+  width: 80%;
+  background-color: #C4EFF5;
+  border: none;
+  border-bottom: 1px dashed black;
   padding: 5px;
+  cursor: pointer;
+}
+
+
+textarea{
+  width: 90%;
+  resize: none;
+  padding: 5px;
+  border: 1px solid #f5f6f3;
+  margin-bottom: 10px;
+  border-radius: 5px;
 }
 
 footer .copyright{
+  background-color: #f5f6f3;
   text-align: center;
   padding: 5px;
   font-size: 1.5em;
+}
+
+
+#submit-contact {
+  background-color: #f5f6f3;
+  width: 30%;
+  padding: 10px;
+  border: 1px solid #f5f6f3;
+  border-radius: 5px;
+  font-weight: bold;
+  color: #00689C;
+  text-transform: uppercase;
+}
+
+#submit-contact:hover{
+  opacity: 0.7;
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+
+/* Responsividade mobile footer */
+
+@media (max-width:630px){
+  #footer-content{
+    display: block;
+    justify-content: center;
+    flex-direction: column;    
+  }
+
+  #logo-style{
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+
+
+  .media-content{
+    width: 100%;
+    border: none;
+  }
+
+  .contact{
+    width: 100%;
+  }
 }
