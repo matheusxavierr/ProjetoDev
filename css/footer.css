@@ -1,85 +1,83 @@
-
 /*Estilos do Footer*/
 
-footer{
+footer {
     font-size: 0.9em;
     background-color: #C4EFF5;
 }
-  
-#footer-content{ 
+
+#footer-content {
     display: flex;
-    justify-content: center; 
+    justify-content: center;
 }
 
-.contact{
+.contact {
     justify-content: space-around;
 }
-  
-#footer-content p{
+
+#footer-content p {
     text-align: center;
     padding-bottom: 10px;
 }
-  
-.media-content{
+
+.media-content {
     border-right: 1px dashed #00689C;
     width: 49%;
     text-align: center;
 }
-  
-#logo-style{
+
+#logo-style {
     display: flex;
     align-items: center;
 }
-  
-.media-content img{
+
+.media-content img {
     margin-bottom: 10px;
 }
-  
-#logo-tipo{  
+
+#logo-tipo {
     width: 50%;
     margin: 0 auto;
 }
-  
-.icons-media{  
+
+.icons-media {
     width: 35px;
     height: 35px;
 }
-  
-  
-.media-content p a{
+
+.media-content p a {
     text-decoration: none;
     color: #00689C;
     font-weight: bold;
 }
-  
-.contact{
+
+.contact {
     display: flex;
     padding: 10px;
     flex-direction: column;
-    justify-content: center ;
+    justify-content: center;
     text-align: justify;
     width: 49%;
 }
-  
-#contact-form{
-    text-align: center;  
-  
+
+#contact-form {
+    text-align: center;
 }
-  
-.media-content h4{
+
+.media-content h4 {
     padding-bottom: 10px;
 }
-  
-.contact label, .contact input{
+
+.contact label,
+.contact input {
     margin-bottom: 15px;
 }
-  
-.contact label{
+
+.contact label {
     font-weight: bold;
     color: #00689C;
 }
-  
-input{
+
+input {
     width: 80%;
     background-color: #C4EFF5;
     border: none;
@@ -87,9 +85,8 @@ input{
     padding: 5px;
     cursor: pointer;
 }
-  
-  
-textarea{
+
+textarea {
     width: 90%;
     resize: none;
     padding: 5px;
@@ -97,15 +94,14 @@ textarea{
     margin-bottom: 10px;
     border-radius: 5px;
 }
-  
-footer .copyright{
+
+footer .copyright {
     background-color: #f5f6f3;
     text-align: center;
     padding: 5px;
     font-size: 1.5em;
 }
-  
-  
+
 #submit-contact {
     background-color: #f5f6f3;
     width: 30%;
@@ -116,35 +112,43 @@ footer .copyright{
     color: #00689C;
     text-transform: uppercase;
 }
-  
-#submit-contact:hover{
+
+#submit-contact:hover {
     opacity: 0.7;
     cursor: pointer;
     border: 1px solid black;
 }
-  
-  
+
+.zap {
+    position: fixed;
+    bottom: 47px;
+    right: 40px;
+    z-index: 9999;
+}
+
+#whats {
+    width: 50px;
+    border-radius: 50%;
+}
+
+
 /* Responsividade mobile footer */
-  
-@media (max-width:630px){
-    #footer-content{
-      display: block;
-      justify-content: center;
-      flex-direction: column;    
+
+@media (max-width:630px) {
+    #footer-content {
+        display: block;
+        justify-content: center;
+        flex-direction: column;
     }
-  
-    #logo-style{
-      padding-top: 10px;
-      padding-left: 10px;
+    #logo-style {
+        padding-top: 10px;
+        padding-left: 10px;
     }
-  
-  
-    .media-content{
-      width: 100%;
-      border: none;
+    .media-content {
+        width: 100%;
+        border: none;
     }
-  
-    .contact{
-      width: 100%;
+    .contact {
+        width: 100%;
     }
 }
