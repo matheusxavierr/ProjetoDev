@@ -33,6 +33,7 @@ body {
   border: none;
   z-index: 99;
   display: none;
+  cursor: pointer;
 }
 
 #icon-btn {
