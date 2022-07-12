@@ -147,7 +147,7 @@ header nav ul li a:hover {
     }
 
     #checkbox-menu:checked~nav .menu {
-        transform: scaleX(1);
+        transform: scaleX(1.12);
         transform-origin: right;
         transition: transform 0.5s ease;
     }
