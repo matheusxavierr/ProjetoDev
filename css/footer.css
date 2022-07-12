@@ -121,13 +121,14 @@ footer .copyright {
 
 .zap {
     position: fixed;
-    bottom: 47px;
-    right: 40px;
+    bottom: 12px;
+    right: 2px;
     z-index: 9999;
+    display:none;
 }
 
 #whats {
-    width: 50px;
+    width: 40px;
     border-radius: 50%;
 }
 

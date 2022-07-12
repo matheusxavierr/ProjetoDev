@@ -1,5 +1,5 @@
 const btnScrollToTop = document.querySelector(".btnScrollToTop");
-
+const btnWhats = document.querySelector(".zap");
 
 btnScrollToTop.addEventListener("click", e => {
   window.scrollTo({
@@ -12,4 +12,8 @@ btnScrollToTop.addEventListener("click", e => {
 
 window.addEventListener('scroll', e => {
   btnScrollToTop.style.display = window.scrollY > 20 ? 'block' : 'none';
+});
+
+window.addEventListener('scroll', e => {
+  btnWhats.style.display = window.scrollY > 20 ? 'block' : 'none';
 });
