@@ -8,10 +8,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/cards.css">
     <link rel="stylesheet" href="css/index.css">
     <link rel="icon" href="./assets/BRASLEIRISMO__.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/0b165d48f8.js" crossorigin="anonymous"></script>
     <title>Brasileirismo</title>
 </head>
 
@@ -30,16 +32,13 @@
                     <nav>
                         <ul class="menu">
                             <li>
-                                <a href="#home">Home</a>
-                            </li>
-                            <li>
                                 <a href="#cards">Locais</a>
                             </li>
                             <li>
                                 <a href="./team.html">Equipe</a>
                             </li>
                             <li>
-                                <a href="./contact.html">Contato</a>
+                                <a href="#footer-content">Contato</a>
                             </li>
                         </ul>
                     </nav>
@@ -89,7 +88,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="./Images/states/PontosRJ.jpg" class="d-block w-100" alt="">
+                    <img src="./Images/alter-do-chao.png" class="d-block w-100" alt="">
                     <div class="carousel-caption d-none d-md-block">
                         <h1 class="caption">Conheça o paraíso</h1>
                         <p class="informs">Descubra o que existe de mais lindo... O BRASIL.</p>
@@ -184,75 +183,67 @@
         <h2>Pontos turísticos em alta!</h2>
 
         <div class="page-cards">
-
-            <div class="botton-card">
-                <figure class="card-image">
-                    <a href="./saoPaulo.html" target="_blank"><img src="Images/cards/card-SP.jpg" /> </a>
-                </figure>
-                <p>São Paulo</p>
-
-            </div>
-
-            <div class="botton-card">
-                <figure class="card-image">
-                    <a href="./rioDeJaneiro.html" target="_blank"><img src="Images/cards/BondinhoRJ.jpg" /> </a>
-                </figure>
-                <p>Rio de Janeiro</p>
-
-            </div>
-
-            <div class="botton-card">
-                <figure class="card-image">
-                    <a href="./minasGerais.html" target="_blank"><img src="Images/cards/Poços de Caldas-MG.jpg" /> </a>
-                </figure>
-                <p>Minas Gerais</p>
-
-            </div>
-
-            <div class="botton-card">
-                <figure class="card-image">
-                    <a href="" target="_blank"><img src="Images/states/Capitólio-MG.jpg" /> </a>
-                </figure>
-                <p>Espírito Santo</p>
-
-            </div>
-
-            <div class="botton-card">
-                <figure class="card-image">
-                    <a href="./Pernambuco.html" target="_blank"><img src="Images\cards\PE.jpg" /> </a>
-                </figure>
-                <p>Pernambuco</p>
-
-            </div>
-
-            <div class="botton-card">
-                <figure class="card-image">
-                    <a href="" target="_blank"><img src="Images/states/cristo1.jpg" /> </a>
-                </figure>
-                <p>Ceará</p>
-
-            </div>
-
-            <div class="botton-card">
-                <figure class="card-image">
-                    <a href="" target="_blank"><img src="Images/states/holambramoinho.jpg" /> </a>
-                </figure>
-                <p>Santa Catarina</p>
-
-            </div>
-
-
-            <div class="botton-card">
-                <figure class="card-image">
-                    <a href="./para.html" target="_blank"><img src="./Images/cards/card-PA.jpg" /> </a>
-                </figure>                
-                <p>Pará</p>
-            </div>
+           
         </div>
     </section>
 
-    <a class="btn btn-primary" href="#header" role="button">Voltar ao topo</a>
+   
+    <div class="btnScrollToTop" data-scroll="up" type="button">       
+        <i class="fa-solid fa-circle-arrow-up" id="icon-btn"></i>
+    </div>
+
     <footer>
+
+        <section id="footer-content">
+            <div class="media-content">
+                <div id="logo-style"  class= "text-justify">
+                    <img id="logo-tipo" src="./assets/logo-footer (2).png">
+                </div>
+
+                <h4 class="text-center">Ficamos felizes de ver você aqui!</h4>
+                <p>Deixe uma mensagem, sua opnião é muito importante pra nós! </p>
+                <p>Acompanhe as nossas redes sociais!</p>
+
+                <figure>
+                    <a href="#"><img src="./Images/icons/facebook-icon.png" class="icons-media"></a>
+                    <a href="#"><img src="./Images/icons/twitter-icon.png" class="icons-media"></a>
+                    <a href="#"><img src="./Images/icons/linkedin-icon.png" class="icons-media"></a>
+                    <a href="#"><img src="./Images/icons/youtube-icon.png" class="icons-media"></a>
+                    <a href="#"><img src="./Images/icons/whatsapp-icon.png" class="icons-media"></a>
+                </figure>
+
+                <p>Conheça mais sobre o projeto acessando o <a href="https://github.com/matheusxavierr/ProjetoDev" target="_blank">Git Hub</a></p>
+                <p>Conheça a <a href="./team.html">Equipe DreamTeam</a></p>
+
+
+            </div>
+
+            <div class="contact">
+
+                <p>Conte o que você achou do site! Fale sobre sua visita a um dos lugares turísticos ou deixe-nos sugestões para melhorar! Queremos ouvir sua opnião!</p>
+
+                <form action="" id="contact-form">
+                    <label for="name">Nome:</label>
+                    <input class="form-contact" type="text" id="name" placeholder="Nome Completo">
+                    <br>
+                    <label for="email">E-mail:</label>
+                    <input class="form-contact" type="email" id="mail" placeholder="E-mail">
+
+                    <textarea class="form-contact" name="msg" id="message" rows="5" placeholder="Mensagem"></textarea>
+                    <br>
+                    <input id="submit-contact" type="submit" value="Enviar">
+                </form>
+
+
+            </div>
+        </section>
+
+        <div class="zap">
+            <a href=" https://wa.me/5581999999999" target="_blank">
+                <img id="whats" src="./Images/icons/whatsapp-icon.png" alt="Fale Conosco pelo Whatsapp" title="Fale Conosco pelo Whatsapp">
+            </a>
+        </div>
+
         <div class="copyright">
             <p>Desenvolvido por <b>DreamTeam - TechAcademy</b> &copy; 2022</p>
         </div>
@@ -260,6 +251,7 @@
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     <script src="main.js"></script>
+    <script src="./JS/ButtonTop.js"></script>
 </body>
 
 </html>

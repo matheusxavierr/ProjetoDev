@@ -1,30 +1,32 @@
-const acre = document.getElementById("state-ac");
-const espiritoSanto = document.getElementById("state-es");
-const rioDeJaneiro = document.getElementById("state-rj");
-const saoPaulo = document.getElementById("state-sp");
-const amazonas = document.getElementById("state-am");
-const para = document.getElementById("state-pa");
-const rioGrandeDoSul = document.getElementById("state-rs");
+//LIMPA FORMULÁRIO DE CONTATO APÓS ENVIO
+window.onbeforeunload = () => {
+    for(const form of document.getElementsByTagName('form')) {
+      form.reset();
+    }
+  }
 
-let arrayStates = []
-arrayStates.push(acre, amazonas, espiritoSanto, para, rioDeJaneiro, rioGrandeDoSul, saoPaulo)
+const cardsList = [
+    'São Paulo',
+    'Rio de Janeiro',
+    'Minas Gerais', 
+    'Espírito Santo', 
+    'Pernambuco',
+    'Ceará', 
+    'Santa Catarina',
+    'Pará'
+];
+let cards = document.querySelector(".page-cards");
 
-const image = document.getElementById("img");
-
-function mouseOverActiveImg() {
-    arrayStates.forEach((element) => {
-        if(element.id === event.target.id) {
-            image.classList.add(event.target.id);
-            return;
-        }
-    })
-}
-
-function mouseOutDisablesImg() {
-    arrayStates.forEach((element) => {
-        if(element.id === event.target.id) {
-            image.classList.remove(event.target.id);
-            return;
-        }
-    })
-}
+function loopCodeBlock(){
+    for (i=0; i< cardsList.length; i++){
+        var codeBlock = '<div class="botton-card">' + 
+                        '<figure class="card-image">' + 
+                        `<a href="./${cardsList[i]}.html"><img src="Images/cards/${cardsList[i]}.jpg" /> </a>` +
+                        '</figure>' +
+                        `<p>${cardsList[i]}</p>` +
+                        '</div>';
+                        document.querySelector(".page-cards").innerHTML += codeBlock;
+                        
+    }
+};
+ loopCodeBlock();

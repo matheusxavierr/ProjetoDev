@@ -45,7 +45,7 @@ main {
 }
 
 .user-profile-image1 {
-  background-image: url(/Images/teamphotos/jessica.jpeg);
+  background-image: url(../Images/teamphotos/jessica.jpeg);
   background-size: cover;
   width: 120px;
   height: 120px;
@@ -54,7 +54,7 @@ main {
 }
 
 .user-profile-image2 {
-  background-image: url(/Images/teamphotos/wesley.jpg);
+  background-image: url(../Images/teamphotos/wesley.jpg);
   background-size: cover;
   width: 120px;
   height: 120px;
@@ -63,7 +63,7 @@ main {
 }
 
 .user-profile-image3 {
-  background-image: url(/Images/teamphotos/wellington.jpeg);
+  background-image: url(../Images/teamphotos/wellington.jpeg);
   background-size: cover;
   width: 120px;
   height: 120px;
@@ -72,7 +72,7 @@ main {
 }
 
 .user-profile-image4 {
-  background-image: url(/Images/teamphotos/cristiane.jpeg);
+  background-image: url(../Images/teamphotos/cristiane.jpeg);
   background-size: cover;
   width: 120px;
   height: 120px;
@@ -81,7 +81,7 @@ main {
 }
 
 .user-profile-image5 {
-  background-image: url(/Images/teamphotos/jaqueline.jpg);
+  background-image: url(../Images/teamphotos/jaqueline.jpg);
   background-size: cover;
   width: 120px;
   height: 120px;
@@ -90,7 +90,7 @@ main {
 }
 
 .user-profile-image6 {
-  background-image: url(/Images/teamphotos/mario.jpeg);
+  background-image: url(../Images/teamphotos/mario.jpeg);
   background-size: cover;
   width: 120px;
   height: 120px;
@@ -99,7 +99,7 @@ main {
 }
 
 .user-profile-image7 {
-  background-image: url(/Images/teamphotos/thiago.jpg);
+  background-image: url(../Images/teamphotos/thiago.jpg);
   background-size: cover;
   width: 120px;
   height: 120px;
@@ -108,7 +108,7 @@ main {
 }
 
 .user-profile-image8 {
-  background-image: url(/Images/teamphotos/rodrigo);
+  background-image: url(../Images/teamphotos/rodrigo);
   background-size: cover;
   width: 120px;
   height: 120px;
@@ -117,7 +117,7 @@ main {
 }
 
 .user-profile-image9 {
-  background-image: url(/Images/teamphotos/ana);
+  background-image: url(../Images/teamphotos/ana);
   background-size: cover;
   width: 120px;
   height: 120px;
@@ -126,7 +126,7 @@ main {
 }
 
 .user-profile-image10 {
-  background-image: url(/Images/teamphotos/juliana);
+  background-image: url(../Images/teamphotos/juliana);
   background-size: cover;
   width: 120px;
   height: 120px;
@@ -135,7 +135,7 @@ main {
 }
 
 .user-profile-image11 {
-  background-image: url(/Images/teamphotos/yashina.jpg);
+  background-image: url(../Images/teamphotos/yashina.jpg);
   background-size: cover;
   width: 120px;
   height: 120px;
@@ -215,9 +215,10 @@ a:visited {
 @media only screen and (max-width: 400px){
   main {
     display: flex;
+    text-align: center;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
     padding: 20px 20px;
     margin-right: 20px;
   }
