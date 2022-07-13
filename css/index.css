@@ -124,4 +124,14 @@ video {
       
 }
 
+/* Regra do header adicionada aqui para corrigir problema causado pelo bootstrap no menu de navegação no mobile */
+@media only screen and (max-width:740px){   
 
+    #checkbox-menu:checked~nav .menu {
+        transform: scaleX(1.12);
+        transform-origin: right;
+        transition: transform 0.5s ease;
+    }
+
+    
+}
