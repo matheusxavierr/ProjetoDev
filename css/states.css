@@ -43,10 +43,10 @@ article{
     margin: 30px;
 }
 
-.card-container{    
+.card-container{
     background-color: #f5f6f3;
     width: 30%;
-    height: 60%;
+    height: 50%;
     text-align: center;
     border-radius: 20px;
     box-shadow: 10px -5px 5px #1A2E38;
@@ -144,7 +144,7 @@ article{
 
 /*Responsividade mobile */
 
-@media (max-width:730px){
+@media (max-width:720px){
 
     .text-introdution{        
         margin-bottom: 70px;
@@ -179,6 +179,20 @@ article{
     }
 }
 
-/* Responsividade dos cards para telas maiores
+/* Responsividade dos cards para telas maiores*/
+
+@media (min-width:930px){
+    .card-container{ 
+        height: 70%;
+    }
+}
+
+@media (min-width:1200px){
+   .animation-cards{
+    height: 550px;
+   }
+}
+
+
 
 
