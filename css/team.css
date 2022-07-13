@@ -9,6 +9,7 @@ h1 {
   display: flex;
   justify-content: center;
   margin: 20px;
+  text-align: center;
 }
 
 main {
@@ -225,6 +226,7 @@ a:visited {
 
   .card-container {
     margin-bottom: 20px;
+    margin: 0 auto;
   }
 
   h1 {

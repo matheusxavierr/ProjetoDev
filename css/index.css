@@ -111,6 +111,19 @@ video {
 }
 
 @media (min-width: 630px){
+    /*CORREÇÃO DOS BOTÕES E TEXTO DO CARROSSEL PARA TELAS MAIORES*/
+    .carousel-inner{
+        width: 100vw;
+        height: 40%;
+    }
+    .carousel-fade h1 {
+       margin-bottom: 1.5vh;;
+
+    }
+    .carousel-fade p{
+
+    margin-bottom:20vh;
+    }
       
     .natureza img {
         float: left;
