@@ -20,8 +20,6 @@ header .container{
     margin: auto;
 }
 
-
-
 header nav ul{
     display: flex;
 }
@@ -43,9 +41,40 @@ header nav ul li a:hover {
     background: rgba(255,255,255,0.15);
 }
 
+
 #checkbox-menu{
     display:none;
 }
+
+
+/*Estilos do menu dropdown*/
+
+
+.submenu-locais{
+    text-align: start;
+    position: absolute;
+    top: 85px; 
+    padding-left: 0;
+    background-color: #44bde7;
+    min-width: 250px;
+    display: none;
+    z-index: 10;
+}
+
+.submenu-locais li{
+    width: 100%;   
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.submenu-locais li a {
+    width: 100%;
+}
+
+.menu > li:hover > .submenu-locais{
+    display: block;
+}
+
 
 /* Responsividade mobile */
 
@@ -66,7 +95,7 @@ header nav ul li a:hover {
         z-index: 1;
     }
 
-    .menu>li {
+    .menu li {
         display: flex;
         justify-content: center;
         margin: 0;
@@ -97,6 +126,19 @@ header nav ul li a:hover {
         align-items: center;
         margin-right: 20px;
     }
+
+    .submenu-locais{
+        width: 100%;
+        position: absolute;
+        flex-direction: column;
+        text-align: center;
+        top:60px;
+    } 
+
+    .submenu-locais li a{
+        border-bottom: 1px solid white;
+    }
+
 
     #header label {
         cursor: pointer;
