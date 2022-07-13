@@ -111,19 +111,7 @@ video {
 }
 
 @media (min-width: 630px){
-    /*CORREÇÃO DOS BOTÕES E TEXTO DO CARROSSEL PARA TELAS MAIORES*/
-    .carousel-inner{
-        width: 100vw;
-        height: 87vh;
-    }
-    .carousel-fade h1 {
-       margin-bottom: 1.5vh;;
-        
-    }
-    .carousel-fade p{
-    
-    margin-bottom:20vh;
-    }
+      
     .natureza img {
         float: left;
         margin-right: 10px;
@@ -136,4 +124,14 @@ video {
       
 }
 
+/* Regra do header adicionada aqui para corrigir problema causado pelo bootstrap no menu de navegação no mobile */
+@media only screen and (max-width:740px){   
 
+    #checkbox-menu:checked~nav .menu {
+        transform: scaleX(1.12);
+        transform-origin: right;
+        transition: transform 0.5s ease;
+    }
+
+    
+}
