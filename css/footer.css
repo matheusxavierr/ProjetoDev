@@ -16,7 +16,10 @@ footer {
 
 #footer-content span {
     text-align: center;
+    padding-bottom: 10px;
+    line-height: 20px;
 }
+
 
 .media-content {
     border-right: 1px dashed #00689C;
@@ -24,7 +27,6 @@ footer {
     text-align: center;
     align-items: center;
 }
-
 
 #logo-style {
     display: flex;
