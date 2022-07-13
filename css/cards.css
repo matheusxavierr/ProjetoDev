@@ -27,7 +27,7 @@
     text-align: center;
 }
 
-.botton-card:hover{
+.card-image:hover{
     transition: 0.5s;
     transform: translateY(-9px);
     opacity: 0.7;
