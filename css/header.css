@@ -14,7 +14,7 @@ header .container{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100vw;
+    
     max-width: 100%;
     height: 13vh;
     margin: auto;
@@ -57,7 +57,7 @@ header nav ul li a:hover {
     top: 85px; 
     padding-left: 0;
     background-color: #44bde7;
-    min-width: 250px;
+    
     display: none;
     z-index: 10;
 }
@@ -89,7 +89,7 @@ header nav ul li a:hover {
         left: 0;
         top: 80px;
         flex-direction: column;
-        width: 100vw;
+        width: 100%;
         justify-content: center;
         align-items: center;
         transform: scaleX(0);
@@ -129,11 +129,11 @@ header nav ul li a:hover {
     }
 
     .submenu-locais{
-        width: 100%;
+        width: 92%;
         position: absolute;
         flex-direction: column;
         text-align: center;
-        top:60px;
+        top:75px;
     } 
 
     .submenu-locais li a{
