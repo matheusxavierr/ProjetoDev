@@ -129,11 +129,12 @@ header nav ul li a:hover {
     }
 
     .submenu-locais{
-        width: 92%;
+        width: 100%;
         position: absolute;
         flex-direction: column;
         text-align: center;
         top:75px;
+        right: 0;
     } 
 
     .submenu-locais li a{
