@@ -4,37 +4,60 @@ window.onbeforeunload = () => {
       form.reset();
     }
   }
-//NOME DEVE SER INCLUIDO CONFORME FOTO QUE FOR COLOCADA NA PASTA IMAGES/CARDS
-const cardsList = [
-    'Holambra - SP',
-    'Pão de Açúcar - RJ',
-    'Capitólio - MG', 
-    'Vila Velha - ES', 
-    'Olinda - PE',
-    'Cumbuco - CE', 
-    'Ponte Hercílio Luz - SC',
-    'Santarém - PA'
-];
-//FIRSTNAME LEVA A SECTION ESPECIFICA DA PÁG
-//LASTNAME É O NOME DA PÁG DO ESTADO
-const cardsListFirstName = [];
-const cardsListLastName = [];
-let cards = document.querySelector(".page-cards");
 
-function loopCodeBlock(){
-    for (i=0; i< cardsList.length; i++){
+//------------botões topo e whats -----------------
+
+  const codeBlockBtns = 
+  '<div class="zap">' + 
+    '<a href=" https://wa.me/5581999999999" target="_blank">' + 
+    '<img id="whats" src="./Images/icons/whatsapp-icon.png" alt="Fale Conosco pelo Whatsapp" title="Fale Conosco pelo Whatsapp">' + 
+    '</a>' + 
+  '</div>' + 
+  '<div class="btnScrollToTop" data-scroll="up" type="button">' + 
+      '<i class="fa-solid fa-circle-arrow-up" id="icon-btn"></i>' + 
+  '</div>';
+  document.querySelector("#btnsWhatsTop").innerHTML = codeBlockBtns;
+
+//-----------------FOOTER-----------------
+
+
+  
+      var codeBlockFooter = 
+      '<section id="footer-content">' + 
+      '<div class="media-content">' + 
+          '<div id="logo-style" class="text-justify">' + 
+              '<img id="logo-tipo" src="./assets/logo-footer (2).png">' + 
+          '</div>' + 
+          '<p>Ficamos felizes de ver você aqui!</p>' + 
+          '<span>Deixe uma mensagem, sua opnião é muito importante pra nós! </span><br>' + 
+          '<span>Acompanhe as nossas redes sociais!</span>' + 
+          '<figure>' + 
+              '<a href="#"><img src="./Images/icons/facebook-icon.png" class="icons-media"></a>' + 
+              '<a href="#"><img src="./Images/icons/twitter-icon.png" class="icons-media"></a>' + 
+              '<a href="#"><img src="./Images/icons/linkedin-icon.png" class="icons-media"></a>' + 
+              '<a href="#"><img src="./Images/icons/youtube-icon.png" class="icons-media"></a>' + 
+          '</figure>' + 
+          '<span>Conheça mais sobre o projeto acessando o <a href="https://github.com/matheusxavierr/ProjetoDev" target="_blank">Git Hub</a></span><br>' + 
+          '<span>Conheça a <a href="./team.html">Equipe DreamTeam</a></span>' + 
+        '</div>' + 
+        '<div class="contact">' + 
+          '<span>Conte o que você achou do site! Fale sobre sua visita a um dos lugares turísticos ou deixe-nos sugestões para melhorar! Queremos ouvir sua opnião!</span>' + 
+          '<form action="" id="contact-form">' + 
+            '<label for="name">Nome:</label>' + 
+            '<input class="form-contact" type="text" id="name" placeholder="Nome Completo">' + 
+            '<br>' + 
+            '<label for="email">E-mail:</label>' + 
+            '<input class="form-contact" type="email" id="mail" placeholder="exemplo@email.com">' + 
+            '<textarea class="form-contact" name="msg" id="message" rows="5" placeholder="Mensagem"></textarea><br>' + 
+            '<input id="submit-contact" type="submit" value="Enviar">' + 
+          '</form>' + 
+        '</div>' + 
+      '</section>' + 
+       
       
-      cardsListFirstName[i] = cardsList[i].slice(0, -5);
-      cardsListLastName[i] = cardsList[i].split(' ').pop();
-      
-        var codeBlock = '<div class="botton-card">' + 
-                        '<figure class="card-image">' + 
-                        `<a href="./${cardsListLastName[i]}.html#${cardsListFirstName[i]}"><img src="Images/cards/${cardsList[i]}.jpg" /> </a>` +
-                        '</figure>' +
-                        `<p>${cardsList[i]}</p>` +
-                        '</div>';
-                        document.querySelector(".page-cards").innerHTML += codeBlock;
-                        
-    }
-};
- loopCodeBlock();
+      '<div class="copyright">' + 
+      '<p>Desenvolvido por <b>DreamTeam - TechAcademy</b> &copy; 2022</p>' + 
+      '</div>';
+document.querySelector("#footerJS").innerHTML = codeBlockFooter;
+
+ 
