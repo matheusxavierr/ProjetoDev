@@ -158,4 +158,10 @@ footer .copyright {
     .contact {
         width: 100%;
     }
+    footer .copyright {        
+        height: 2.2rem;
+    }
+    .copyright p {
+        font-size: 1rem;
+    }
 }
