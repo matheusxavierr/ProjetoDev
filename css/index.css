@@ -1,48 +1,46 @@
 /* Estilos específicos da Home */
 
-
 /*-------------------------------------------CARROSSEL------------------------------------------*/
-.caption, .informs {
-    font-style: italic;
-    align-items: top;
-    font-family: "Source Sans Pro", 'Times New Roman';
-    text-shadow: 0 0 0.2em #000, 0 0 0.2em #000, 0 0 0.2em #000;
+.caption,
+.informs {
+  font-style: italic;
+  align-items: top;
+  font-family: "Source Sans Pro", "Times New Roman";
+  text-shadow: 0 0 0.2em #000, 0 0 0.2em #000, 0 0 0.2em #000;
 }
 
-.carousel-inner{
-    max-height: 87vh;
+.carousel-inner {
+  max-height: 87vh;
 }
 
 /* -------------------------------------------- MAIN -----------------------------------------------*/
 main {
-    display: flex;
-    align-items:flex-start;
-    justify-content: center;    
-    opacity: 0.9;
-    flex-direction: column;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  opacity: 0.9;
+  flex-direction: column;
 }
 
 .animation {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    margin: 50px auto;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 50px auto;
+  width: 100%;
 }
 
 video {
-   width: 90%;
-   max-width: 600px;
+  width: 100%;
+  max-height: 600px;
 }
 
-
- /*-------------------------------------------- ARTIGO -----------------------------------------------*/
-
+/*-------------------------------------------- ARTIGO -----------------------------------------------*/
 
 #introdution-texts {
   display: flex;
-  flex-direction: column; 
-  margin: 30px auto;    
+  flex-direction: column;
+  margin: 30px auto;
   background-color: #f5f6f3;
   padding: 30px 50px;
   width: 90%;
@@ -55,22 +53,26 @@ video {
 }
 
 #introdution-texts h1 {
-    text-align: center;
-    margin: 30px;
-    font-size: 2.5em;
+  text-align: center;
+  margin: 30px;
+  font-size: 2.5em;
 }
 
 #introdution-texts h2 {
-    text-align: center;
-    margin-top: 20px;
+  text-align: center;
+  margin-top: 20px;
 }
 
-.cidades, .natureza, .gastronomia {
-    display: flex;
+.cidades,
+.natureza,
+.gastronomia {
+  display: flex;
 }
 
-.cidades img, .natureza img, .gastronomia img {   
-  max-width: 350px;    
+.cidades img,
+.natureza img,
+.gastronomia img {
+  max-width: 350px;
   margin-top: 20px;
   margin-bottom: 10px;
   border-radius: 20px;
@@ -78,75 +80,69 @@ video {
 
 /* Responsividade elementos da home */
 
-
 @media (max-width: 992px) {
-    
-    main #introdution-texts {
-        padding: 20px;
-        display: flex;
-        flex-direction: column;        
-    }
-    
-    .cidades p,
-    .natureza p, .gastronomia p {
-        flex-direction: column;
-        padding: 20px;         
-    }
+  main #introdution-texts {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
 
-    .cidades figure, .natureza figure, .gastronomia figure {
-        text-align: center;
-    }
+  .cidades p,
+  .natureza p,
+  .gastronomia p {
+    flex-direction: column;
+    padding: 20px;
+  }
 
-    .cidades img, .natureza img, .gastronomia img {
-        width: 100%;     
-        
-    }  
+  .cidades figure,
+  .natureza figure,
+  .gastronomia figure {
+    text-align: center;
+  }
 
+  .cidades img,
+  .natureza img,
+  .gastronomia img {
+    width: 100%;
+  }
 }
 
-@media (max-width:630px){
-    
-    .animation div video {
-        width: 100%;
-    }
-  
+@media (max-width: 630px) {
+  .animation div video {
+    width: 100%;
+  }
 }
 
-@media (min-width: 630px){
-    /*CORREÇÃO DOS BOTÕES E TEXTO DO CARROSSEL PARA TELAS MAIORES*/
-    .carousel-inner{
-        width: 100vw;
-        height: 40%;
-    }
-    .carousel-fade h1 {
-       margin-bottom: 1.5vh;;
+@media (min-width: 630px) {
+  /*CORREÇÃO DOS BOTÕES E TEXTO DO CARROSSEL PARA TELAS MAIORES*/
+  .carousel-inner {
+    width: 100vw;
+    height: 40%;
+  }
+  .carousel-fade h1 {
+    margin-bottom: 1.5vh;
+  }
+  .carousel-fade p {
+    margin-bottom: 20vh;
+  }
 
-    }
-    .carousel-fade p{
+  .natureza img {
+    float: left;
+    margin-right: 10px;
+  }
 
-    margin-bottom:20vh;
-    }
-      
-    .natureza img {
-        float: left;
-        margin-right: 10px;
-      }
-      
-      .cidades img, .gastronomia img{
-      float: right;
-      margin-left: 10px;
-      }
-      
+  .cidades img,
+  .gastronomia img {
+    float: right;
+    margin-left: 10px;
+  }
 }
 
 /* Regra do header adicionada aqui para corrigir problema causado pelo bootstrap no menu de navegação no mobile */
-@media only screen and (max-width:740px){   
-
-    #checkbox-menu:checked~nav .menu {
-        transform: scaleX(1.12);
-        transform-origin: right;
-        transition: transform 0.5s ease;
-    }
-
-    
+@media only screen and (max-width: 740px) {
+  #checkbox-menu:checked ~ nav .menu {
+    transform: scaleX(1.12);
+    transform-origin: right;
+    transition: transform 0.5s ease;
+  }
 }
