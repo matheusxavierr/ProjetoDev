@@ -141,6 +141,7 @@ footer .copyright {
 
 /* Responsividade mobile footer */
 
+<<<<<<< HEAD
 @media (max-width: 630px) {
   #footer-content {
     display: block;
@@ -159,3 +160,29 @@ footer .copyright {
     width: 100%;
   }
 }
+=======
+@media (max-width:630px) {
+    #footer-content {
+        display: block;
+        justify-content: center;
+        flex-direction: column;
+    }
+    #logo-style {
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+    .media-content {
+        width: 100%;
+        border: none;
+    }
+    .contact {
+        width: 100%;
+    }
+    footer .copyright {        
+        height: 2.2rem;
+    }
+    .copyright p {
+        font-size: 1rem;
+    }
+}
+>>>>>>> 5b3feb0a7aa8fb3b109bc6a5afef924d58e14ae2
