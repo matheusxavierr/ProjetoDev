@@ -47,7 +47,7 @@ video {
 }
 
 #introdution-texts p {
-  text-align: justify;
+  text-align: left;
   line-height: 22px;
   padding-top: 10px;
 }
@@ -72,10 +72,12 @@ video {
 .cidades img,
 .natureza img,
 .gastronomia img {
-  max-width: 350px;
+  width: 50%;
+  max-width: 550px;
   margin-top: 20px;
   margin-bottom: 10px;
-  border-radius: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 0.5em black;
 }
 
 /* Responsividade elementos da home */
@@ -91,7 +93,14 @@ video {
   .natureza p,
   .gastronomia p {
     flex-direction: column;
-    padding: 20px;
+  }
+
+
+}
+
+@media (max-width: 630px) {
+  .animation div video {
+    width: 100%;
   }
 
   .cidades figure,
@@ -105,12 +114,7 @@ video {
   .gastronomia img {
     width: 100%;
   }
-}
 
-@media (max-width: 630px) {
-  .animation div video {
-    width: 100%;
-  }
 }
 
 @media (min-width: 630px) {

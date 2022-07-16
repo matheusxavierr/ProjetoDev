@@ -10,7 +10,7 @@ main h1{
 
 main p{
     font-size: 1.1em;
-    text-align: justify;
+    text-align: left;
     padding: 10px;
 }
 
@@ -117,7 +117,7 @@ article{
 }
 
 .article-container > div figure img{
-    width: 50%;
+    width: 45%;
     max-width: 500px;
     max-height: 380px;
     border-radius: 10px;
