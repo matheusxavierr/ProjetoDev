@@ -28,7 +28,8 @@ header nav ul li {
     list-style: none;
 }
 
-header nav ul li a {
+header nav ul > li a {
+    display: inline-block;
     text-decoration: none;
     color: white;
     cursor: pointer;
@@ -53,19 +54,15 @@ header nav ul li a:hover {
 
 .submenu-locais{
     text-align: start;
-    position: absolute;
-    top: 85px; 
+    position: absolute;    
     padding-left: 0;
-    background-color: #44bde7;
-    
+    background-color: #44bde7;    
     display: none;
     z-index: 10;
 }
 
 .submenu-locais li{
-    width: 100%;   
-    padding: 10px;
-    margin-bottom: 20px;
+    width: 100%; 
 }
 
 .submenu-locais li a {
@@ -112,7 +109,7 @@ header nav ul li a:hover {
     }
 
     .menu li a {
-        flex: 1;
+        flex: 1; 
         text-align: center;
     }
 
@@ -131,12 +128,23 @@ header nav ul li a:hover {
     .submenu-locais{
         width: 100%;
         position: absolute;
+        overflow: hidden;
+        top: 140px;
+        max-height: 0;
         flex-direction: column;
         text-align: center;
-        top:75px;
-        right: 0;
+        transition: all 0.3s;
     } 
 
+    .menu > li:hover > .submenu-locais{
+        height: auto;
+        max-height: 800px;
+    }
+
+    .submenu-locais li{
+        border-radius: 5px;
+    }
+    
     .submenu-locais li a{
         border-bottom: 1px solid white;
     }

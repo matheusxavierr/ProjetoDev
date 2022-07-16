@@ -12,7 +12,7 @@ const cardsList = [
     'Capitólio - MG', 
     'Vila Velha - ES', 
     'Olinda - PE',
-    'Cumbuco - CE', 
+    'Jericoacoara - CE', 
     'Ponte Hercílio Luz - SC',
     'Santarém - PA'
 ];
