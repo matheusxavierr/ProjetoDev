@@ -118,8 +118,8 @@ article{
 
 .article-container > div figure img{
     width: 50%;
-    max-width: 400px;
-    max-height: 350px;
+    max-width: 500px;
+    max-height: 380px;
     border-radius: 10px;
     margin: 15px;
 }
@@ -183,18 +183,25 @@ article{
     }
 }
 
-/* Responsividade dos cards para telas maiores*/
+/* Responsividade para telas maiores*/
 
 @media (min-width:930px){
     .card-container{ 
         height: 70%;
     }
+
 }
 
 @media (min-width:1200px){
    .animation-cards{
-    height: 800px;
+        height: 800px;
    }
+
+   .article-container > div figure img{        
+        max-width: 700px;
+        max-height: 580px;
+   }
+   
 }
 
 
