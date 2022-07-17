@@ -40,13 +40,13 @@ var codeBlockFooter =
   "</div>" +
   '<div class="contact">' +
   "<span>Conte o que você achou do site! Fale sobre sua visita a um dos lugares turísticos ou deixe-nos sugestões para melhorar! Queremos ouvir sua opnião!</span>" +
-  '<form action="" id="contact-form">' +
+  '<form action="https://formspree.io/f/xgedjnyz" id="contact-form" method="POST">' +
   '<label for="name">Nome:</label>' +
-  '<input class="form-contact" type="text" id="name" placeholder="Nome Completo">' +
+  '<input class="form-contact" type="text" id="name" placeholder="Nome Completo" name="name" required>' +
   "<br>" +
   '<label for="email">E-mail:</label>' +
-  '<input class="form-contact" type="email" id="mail" placeholder="exemplo@email.com">' +
-  '<textarea class="form-contact" name="msg" id="message" rows="5" placeholder="Mensagem"></textarea><br>' +
+  '<input class="form-contact" type="email" id="mail" placeholder="exemplo@email.com" name="email" required>' +
+  '<textarea class="form-contact" name="msg" id="message" rows="5" placeholder="Mensagem" required></textarea><br>' +
   '<input id="submit-contact" type="submit" value="Enviar">' +
   "</form>" +
   "</div>" +
