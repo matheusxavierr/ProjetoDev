@@ -194,7 +194,7 @@ article{
 
 @media (min-width:1200px){
    .animation-cards{
-        height: 800px;
+        height: 600px;
    }
 
    .article-container > div figure img{        
@@ -203,7 +203,3 @@ article{
    }
    
 }
-
-
-
-
