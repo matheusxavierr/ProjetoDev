@@ -6,7 +6,7 @@ header {
 
 header .logo {
     padding: 10px;
-    width: 250px;
+    width: auto;
     height: 13vh;
 }
 

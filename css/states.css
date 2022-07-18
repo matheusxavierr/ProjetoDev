@@ -1,41 +1,44 @@
 /* Estilos padrão das páginas dos estados */
 
+
 /*Estilos gerais da main */
 
-main h1{
+main h1 {
     font-size: 2.5em;
     color: #00689C;
     padding: 20px;
+    margin-left: 20px;
 }
 
-main p{
+main p {
     font-size: 1.1em;
     text-align: left;
     padding: 10px;
 }
 
-article{
+article {
     margin-bottom: 80px;
 }
 
-.text-introdution{
+.text-introdution {
     font-size: 1.2em;
     padding: 10px 30px;
 }
 
-.text-introdution a{    
+.text-introdution a {
     text-decoration: none;
     color: #00689C;
     font-weight: bold;
 }
 
-.text-introdution a:hover{
+.text-introdution a:hover {
     text-decoration: underline;
 }
 
+
 /* Estilos da seção de cards */
 
-.animation-cards{
+.animation-cards {
     display: flex;
     height: 450px;
     align-items: center;
@@ -43,7 +46,7 @@ article{
     margin: 30px;
 }
 
-.card-container{
+.card-container {
     background-color: #f5f6f3;
     width: 30%;
     height: 50%;
@@ -52,35 +55,36 @@ article{
     box-shadow: 0 0 1.5em black;
 }
 
-.card-container:hover{
+.card-container:hover {
     opacity: 0.7;
     transform: translateY(-15px);
     transition: 0.5s;
 }
 
-.card-container figure img{
+.card-container figure img {
     width: 100%;
     height: 100%;
     border-radius: 20px;
 }
 
-.card-container figure{ 
+.card-container figure {
     width: 100%;
     height: 80%;
 }
 
-.content p{
+.content p {
     text-align: center;
     color: #00689C;
     font-weight: bold;
 }
 
+
 /* Estilo da seção de artigos */
 
-.article-container{
+.article-container {
     display: flex;
-    flex-direction: column; 
-    margin: 30px auto;  
+    flex-direction: column;
+    margin: 30px auto;
     background-color: #f5f6f3;
     padding: 30px;
     margin-bottom: 0;
@@ -88,35 +92,35 @@ article{
     border-radius: 10px;
 }
 
-.article-container h2{
+.article-container h2 {
     text-align: center;
     color: #00689C;
     padding-bottom: 50px;
     font-size: 1.8em;
 }
 
-.article-container h3{
+.article-container h3 {
     text-transform: uppercase;
     font-style: unset;
-    padding: 0 10px;  
-    padding-bottom: 20px;  
+    padding: 0 10px;
+    padding-bottom: 20px;
 }
 
-.article-container p{
+.article-container p {
     padding-bottom: 30px;
 }
 
-.article-container a{
+.article-container a {
     text-decoration: none;
     color: #00689C;
     font-weight: bold;
 }
 
-.article-container a:hover{
+.article-container a:hover {
     text-decoration: underline;
 }
 
-.article-container > div figure img{
+.article-container>div figure img {
     width: 45%;
     max-width: 500px;
     max-height: 380px;
@@ -124,74 +128,68 @@ article{
     margin: 15px;
 }
 
-.article-container span{
-    font-style: oblique;    
+.article-container span {
+    font-style: oblique;
 }
 
-.article-container ul{
+.article-container ul {
     padding-left: 15px;
 }
 
+
 /*Media query float images*/
 
-@media (min-width:730px){
-    .image-left img{
+@media (min-width:730px) {
+    .image-left img {
         float: left;
         margin-right: 10px;
     }
-
-    .image-right img{
+    .image-right img {
         float: right;
         margin-left: 10px;
     }
 }
 
+
 /*Responsividade mobile */
 
-@media (max-width:720px){
-
-    .text-introdution{        
+@media (max-width:720px) {
+    .text-introdution {
         margin-bottom: 70px;
     }
-
     /* Responsividade dos cards */
-    .animation-cards{
+    .animation-cards {
         height: 100%;
         justify-content: center;
         flex-direction: column;
     }
-
-    .card-container{
+    .card-container {
         width: 300px;
         height: 280px;
         margin-bottom: 70px;
     }
-
     /*Responsividade da seção de artigos */
-    .article-container{
-        padding: 15px;        
+    .article-container {
+        padding: 15px;
     }
-
-    .article-container figure{
+    .article-container figure {
         text-align: center;
     }
-
-    .article-container > div figure img{
+    .article-container>div figure img {
         width: 90%;
         max-width: 450px;
         margin-bottom: 20px;
     }
 }
 
+
 /* Responsividade para telas maiores*/
 
-@media (min-width:930px){
-    .card-container{ 
+@media (min-width:930px) {
+    .card-container {
         height: 70%;
     }
-
 }
-
 @media (min-width:1200px){
    .animation-cards{
         height: 600px;
