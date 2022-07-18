@@ -35,23 +35,37 @@ function insertHeader(){
                     '<li>' + 
                       '<a href="#">Locais</a>' + 
                       '<ul class="submenu-locais">' + 
-                          '<li><a href="#cards">Pontos Turísticos</a></li>' + 
-                          '</ul>' + 
-                          '</li>'+ 
-                          '<li>' + 
-                               '<a href="./team.html">Equipe</a>' + 
-                          '</li>' + 
-                         '<li>' + 
-                          '<a href="#footer-content">Contato</a>' + 
-                          '</li>' + 
-                   '</ul>' + 
+                      '</ul>' + 
+                    '<li>' + 
+                      '<a href="./team.html">Equipe</a>' + 
+                    '</li>' + 
+                    '<li>' + 
+                      '<a href="#footer-content">Contato</a>' + 
+                    '</li>' + 
+
+               '</ul>' + 
               '</nav>' + 
           '</div>' + 
       '</div>' + 
   '</div>';
     document.querySelector("#header").innerHTML += codeBlock1;
-           
+    const urlAtual = window.location.pathname.substring(1);
+
+    
+    
+   switch (urlAtual) {
+    case 'team.html':
+      var codeBlockTeam = '<li><a href="index.html#cards">Pontos Turísticos</a></li></li>'; 
+      
+      document.querySelector(".submenu-locais").innerHTML += codeBlockTeam;
+      break;
    
+    default:
+      var codeBlockWithoutTeam = '<li><a href="#cards">Pontos Turísticos</a></li></li>'; 
+      
+      document.querySelector(".submenu-locais").innerHTML += codeBlockWithoutTeam;
+      break;
+   }
 
      //insere submenu - criado para permitir escalabilidade
     for (i=0; i< estados.length; i++){
