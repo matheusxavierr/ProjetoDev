@@ -16,8 +16,9 @@ main {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
   padding: 20px 20px;
+  margin: 0 100px 0 100px;
 }
 
 .card-container {
@@ -25,11 +26,12 @@ main {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: stretch;
-  height: 400px;
+  height: 390px;
   width: 220px;
   background-color: white;
   padding: 1px 30px 5px 30px;
   border-radius: 20px;
+  margin: 10px 10px;
 }
 
 .card-header {
@@ -140,6 +142,14 @@ main {
   border-radius: 20px 20px 0 0;
 }
 
+.user-profile-image13{
+  background-image: url(../Images/teamphotos/thamiris);
+  background-size: cover;
+  width: 220px;
+  height: 200px;
+  border-radius: 20px 20px 0 0;
+}
+
 
 .username {
   margin-top: 3px;
@@ -209,36 +219,27 @@ a:visited {
   color: white;
 }
 
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 350px){
   main {
     display: flex;
     text-align: center;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 20px 20px;    
+    padding: 20px 20px;
+    margin: 0 20px 0 20px; 
   }
 
   .card-container {    
-    margin: 10px auto;
+    margin: 10px 10px;
+    height: 390px;
+    width: 220px;
   }
 
   h1 {
-    font-size: 0.7rem;
+    font-size: 1.2rem;
     margin: 20px;
   }
 }
 
-@media only screen and (min-width: 400px){
-  main {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    padding: 20px 20px;    
-  }
-  .card-container {
-    margin-bottom: 20px;
-  }
-}
 
