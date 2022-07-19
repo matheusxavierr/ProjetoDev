@@ -105,14 +105,14 @@ iframe {
   font-size: 2em;
   padding: 10px;
   color: white;
-  cursor: pointer;
   border: none;
   border-radius: 10px;
   background-color: transparent;
 }
 
 
-.carousel-images button:hover{
+.carousel-images button:hover{  
+  cursor: pointer;
   background-color: rgba(0, 0, 0, 0.5);
 } 
 
