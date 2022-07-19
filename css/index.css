@@ -13,7 +13,7 @@
   max-height: 87vh;
 }
 
-/* -------------------------------------------- MAIN -----------------------------------------------*/
+/* ------------------------- MAIN --------------------------*/
 main {
   display: flex;
   align-items: flex-start;
@@ -40,7 +40,7 @@ iframe {
   height: 90vh;
 } 
 
-/*-------------------------------------------- ARTIGO -----------------------------------------------*/
+/*-------------------------- ARTIGO ------------------------*/
 
 #introdution-texts {
   display: flex;
@@ -84,6 +84,63 @@ iframe {
   border-radius: 10px;
   box-shadow: 0 0 0.5em black;
 }
+
+
+/*---------------------- CARROSSEL -------------------------*/
+
+#carousel{
+  width: 100%;
+}
+
+.carousel-images{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: auto;        
+  border: 2px solid whitesmoke;
+}
+
+
+.carousel-images button{
+  font-size: 2em;
+  padding: 10px;
+  color: white;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+
+.carousel-images button:hover{
+  background-color: rgba(0, 0, 0, 0.5);
+} 
+
+.carousel-images img{
+  display: none;
+}
+
+.carousel-images .active{
+  display: flex;
+  width: 100%;
+}
+
+
+#left-button{
+  left: 20px;
+  position: absolute;    
+}
+
+#rigth-button{
+  right: 20px;
+  position: absolute;
+}
+
+#left, #rigth{
+  width: 30px;
+  background-color: white;
+}
+
 
 /* Responsividade elementos da home */
 
