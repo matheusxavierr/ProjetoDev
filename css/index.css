@@ -96,8 +96,7 @@ iframe {
   display: flex;
   align-items: center;
   width: 100%;
-  height: auto;        
-  border: 2px solid whitesmoke;
+  height: auto;  
 }
 
 
