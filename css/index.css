@@ -115,6 +115,13 @@ iframe {
   background-color: rgba(0, 0, 0, 0.5);
 } 
 
+.informs {
+  font-style: italic;
+  align-items: top;
+  font-family: "Source Sans Pro", "Times New Roman";
+  text-shadow: 0 0 0.2em #000, 0 0 0.2em #000, 0 0 0.2em #000;
+}
+
 .carousel-images img{
   display: none;
 }
