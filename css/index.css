@@ -1,6 +1,6 @@
 /* Estilos específicos da Home */
 
-/*-------------------------------------------CARROSSEL------------------------------------------*/
+/*-------------------------------------------CARROSSEL------------------------------------------
 .caption,
 .informs {
   font-style: italic;
@@ -13,7 +13,7 @@
   max-height: 87vh;
 }
 
-/* -------------------------------------------- MAIN -----------------------------------------------*/
+/* ------------------------- MAIN --------------------------*/
 main {
   display: flex;
   align-items: flex-start;
@@ -40,7 +40,7 @@ iframe {
   height: 90vh;
 } 
 
-/*-------------------------------------------- ARTIGO -----------------------------------------------*/
+/*-------------------------- ARTIGO ------------------------*/
 
 #introdution-texts {
   display: flex;
@@ -60,12 +60,12 @@ iframe {
 #introdution-texts h1 {
   text-align: center;
   margin: 30px;
-  font-size: 2.5em;
+  font-size: 2em;
 }
 
 #introdution-texts h2 {
   text-align: center;
-  margin-top: 20px;
+  margin: 30px;
 }
 
 .cidades,
@@ -84,6 +84,82 @@ iframe {
   border-radius: 10px;
   box-shadow: 0 0 0.5em black;
 }
+
+
+/*---------------------- CARROSSEL -------------------------*/
+
+#carousel{
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.carousel-images{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: auto;  
+}
+
+
+.carousel-images button{
+  font-size: 2em;
+  padding: 10px;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+
+.carousel-images button:hover{  
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.5);
+} 
+
+
+.carousel-images img{
+  display: none;
+}
+
+.carousel-images .active{
+  display: flex;
+  width: 100%;
+}
+
+
+#left-button{
+  left: 20px;
+  position: absolute;    
+}
+
+#rigth-button{
+  right: 20px;
+  position: absolute;
+}
+
+#left, #rigth{
+  width: 30px;
+  background-color: white;
+}
+
+.text-informs{
+  display: flex; 
+  width: 100%;
+  justify-content: center;
+  position: absolute; 
+  z-index: 10;
+  margin-bottom: 20px;
+  align-items: baseline;  
+}
+
+.caption, .informs {
+  color: white;
+  font-weight: bold;
+  font-style:oblique;
+  padding: 5px;
+  text-shadow: 0 0 0.4em #000, 0 0 0.4em #000, 0 0 0.4em #000;
+}
+
 
 /* Responsividade elementos da home */
 
@@ -124,7 +200,7 @@ iframe {
 
 @media (min-width: 630px) {
   /*CORREÇÃO DOS BOTÕES E TEXTO DO CARROSSEL PARA TELAS MAIORES*/
-  .carousel-inner {
+  /*.carousel-inner {
     width: 100vw;
     height: 40%;
   }
@@ -133,7 +209,7 @@ iframe {
   }
   .carousel-fade p {
     margin-bottom: 20vh;
-  }
+  } */
 
   .natureza img {
     float: left;
@@ -147,7 +223,7 @@ iframe {
   }
 }
 
-/* Regra do header adicionada aqui para corrigir problema causado pelo bootstrap no menu de navegação no mobile */
+/* Regra do header adicionada aqui para corrigir problema causado pelo bootstrap no menu de navegação no mobile 
 @media only screen and (max-width: 740px) {
   #checkbox-menu:checked ~ nav .menu {
     transform: scaleX(1.12);
