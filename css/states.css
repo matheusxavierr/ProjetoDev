@@ -190,13 +190,9 @@ article {
         height: 70%;
     }
 }
+@media (min-width:1200px){
+   .animation-cards{
+        height: 600px;
+   }
 
-@media (min-width:1200px) {
-    .animation-cards {
-        height: 800px;
-    }
-    .article-container>div figure img {
-        max-width: 700px;
-        max-height: 580px;
-    }
-}
+
