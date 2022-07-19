@@ -1,7 +1,9 @@
 /* Estilos personalizados da página team */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,400&display=swap');
+
 * {
   box-sizing: border-box;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Source Sans Pro", 'Times New Roman';
 }
 
 h1 {
@@ -32,6 +34,7 @@ main {
   padding: 1px 30px 5px 30px;
   border-radius: 20px;
   margin: 10px 10px;
+  box-shadow: 0 0 1em black;
 }
 
 .card-header {
