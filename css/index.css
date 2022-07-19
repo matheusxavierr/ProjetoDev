@@ -60,12 +60,12 @@ iframe {
 #introdution-texts h1 {
   text-align: center;
   margin: 30px;
-  font-size: 2.5em;
+  font-size: 2em;
 }
 
 #introdution-texts h2 {
   text-align: center;
-  margin-top: 20px;
+  margin: 30px;
 }
 
 .cidades,
@@ -90,6 +90,7 @@ iframe {
 
 #carousel{
   width: 100%;
+  margin-bottom: 50px;
 }
 
 .carousel-images{
@@ -115,14 +116,6 @@ iframe {
   background-color: rgba(0, 0, 0, 0.5);
 } 
 
-.informs {
-  font-style: italic;
-  align-items: top;
-  font-family: "Source Sans Pro", "Times New Roman";
-  text-shadow: 0 0 0.2em #000, 0 0 0.2em #000, 0 0 0.2em #000;
-  margin-bottom: 20vh;
-  z-index: 10;
-}
 
 .carousel-images img{
   display: none;
@@ -147,6 +140,24 @@ iframe {
 #left, #rigth{
   width: 30px;
   background-color: white;
+}
+
+.text-informs{
+  display: flex; 
+  width: 100%;
+  justify-content: center;
+  position: absolute; 
+  z-index: 10;
+  margin-bottom: 30px;
+  align-items: baseline;  
+}
+
+.caption, .informs {
+  color: white;
+  font-weight: bold;
+  font-style:oblique;
+  padding: 5px;
+  text-shadow: 0 0 0.4em #000, 0 0 0.4em #000, 0 0 0.4em #000;
 }
 
 
