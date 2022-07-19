@@ -120,6 +120,8 @@ iframe {
   align-items: top;
   font-family: "Source Sans Pro", "Times New Roman";
   text-shadow: 0 0 0.2em #000, 0 0 0.2em #000, 0 0 0.2em #000;
+  margin-bottom: 20vh;
+  z-index: 10;
 }
 
 .carousel-images img{
