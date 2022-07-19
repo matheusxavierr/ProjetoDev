@@ -37,7 +37,7 @@ main {
 }
 iframe {
   width: 100%;
-  height: 90vh;
+  height: 100%;
 } 
 
 /*-------------------------- ARTIGO ------------------------*/
@@ -90,7 +90,7 @@ iframe {
 
 #carousel{
   width: 100%;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 .carousel-images{
@@ -101,7 +101,7 @@ iframe {
 }
 
 
-.carousel-images button{
+.carousel-images a{
   font-size: 2em;
   padding: 10px;
   color: white;
@@ -111,7 +111,7 @@ iframe {
 }
 
 
-.carousel-images button:hover{  
+.carousel-images a:hover{  
   cursor: pointer;
   background-color: rgba(0, 0, 0, 0.5);
 } 
@@ -124,6 +124,8 @@ iframe {
 .carousel-images .active{
   display: flex;
   width: 100%;
+  max-height: 87vh;  
+  transition:  0.5s ease;
 }
 
 
@@ -142,12 +144,12 @@ iframe {
   background-color: white;
 }
 
-.text-informs{
+.text-informs{  
+  font-size: 1em;
   display: flex; 
   width: 100%;
   justify-content: center;
   position: absolute; 
-  z-index: 10;
   margin-bottom: 20px;
   align-items: baseline;  
 }
@@ -194,6 +196,14 @@ iframe {
   .natureza img,
   .gastronomia img {
     width: 100%;
+  }
+
+  .text-informs{
+    font-size: 0.7em;
+  }
+
+  #video{
+    height: 50vh;
   }
 
 }
