@@ -5,7 +5,9 @@
   box-sizing: border-box;
   font-family: "Source Sans Pro", 'Times New Roman';
 }
-
+#ptTurism{
+  display: none;
+}
 h1 {
   font-size: 1.6rem;
   display: flex;
