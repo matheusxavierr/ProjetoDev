@@ -1,27 +1,19 @@
-*Leia isso em outros Línguas: [🇺🇲](README.md), [:brazil:](README.pt.md)
-<h1 align="center">
-  <p align="center"><img src="https://github.com/matheusxavierr/ProjetoDev/blob/main/Images/justLogo.jpeg?raw=true" alt="Brasileirismo" width="50px" height="50px"> Brasileirismo</p>
-  </h1>
-  <!--colocar pág inicial-->
-  <a><img src="https://github.com/matheusxavierr/ProjetoDev/blob/main/Images/justLogo.jpeg?raw=true" alt="Brasileirismo" width="90%" height="500px"></a>
+[🇺🇲](README.md)
+<h1 align="center" color="blue" size="30px">Brasileirismo<br></h1>
+  <a href="https://matheusxavierr.github.io/ProjetoDev/"><p align="center"><img src="https://raw.githubusercontent.com/matheusxavierr/ProjetoDev/main/assets/BRASLEIRISMO__.png" alt="Brasileirismo" width="35%" height="30%"></p></a>
 
 <h3># Descrição do Projeto :page_with_curl:</h3>
-<p>## Projeto feito por aspirantes a desenvolvedores sobre uma plataforma de viagens para testar seus conhecimentos e criar uma experiência de aprendizado em equipe.</p>
+<p>## Projeto feito por aspirantes a desenvolvedores sobre uma plataforma de viagens para testar seus conhecimentos e criar uma experiência de aprendizado em equipe. O site apresenta pontos turísticos imperdíveis do Brasil através dos seus estados mais famosos, buscando levar o usuário a uma imersão cultural e a despertar o desejo de visitar tais lugares.</p>
 
 <h3># Status do Projeto</h3>
-<p>## :construction: Projeto em construção :construction:</p>
-<h3># Tequinologias utilizadas</h3>
-<p>## HTML</p>
-<p>## CSS</p>
-<p>## JavaScript</p>
+<p align="center"><img src="https://raw.githubusercontent.com/matheusxavierr/ProjetoDev/main/Images/Readme%20img/Timeline.jpg" width="100%" height="500px" alt="timeline"></p>
+<h3># Tecnologias utilizadas</h3>
+<p> <img src="https://raw.githubusercontent.com/matheusxavierr/ProjetoDev/main/assets/html5.svg" width="50px" height="50px" name="HTML5"> <img src="https://raw.githubusercontent.com/matheusxavierr/ProjetoDev/main/assets/css3.svg" width="50px" height="50px"> <img src="https://github.com/matheusxavierr/ProjetoDev/blob/main/assets/javascript.svg" width="50px" height="50px"> <img src="https://raw.githubusercontent.com/matheusxavierr/ProjetoDev/main/assets/bootstrap.svg" width="50px" height="50px"> <img src="https://raw.githubusercontent.com/matheusxavierr/ProjetoDev/main/assets/github.svg" width="50px" height="50px"></p>
+<h3> Responsividade</h3><h1>      :computer:  Versão Desktop / Versão Mobile          :iphone:</h1>
 
-<h3># Descrição do Projeto</h3>
-<p>## (adicionar um giv caso seja feita alguma animação) fotos de cada página miniaturizada com descrição das funcionalidades e links, animações e efeitos usados</p>
-<h3> Responsividade</h3><h1> :iphone:  :computer:</h1>
-
-<p>## Imagens lado a lado do desktop/mobile para comparação com descrição dos recursos implementados para responsividade </p>
+<img src="https://raw.githubusercontent.com/matheusxavierr/ProjetoDev/main/Images/desktopmobile%20img/tela%201.png" width="50%" height="200px" ><img src="https://raw.githubusercontent.com/matheusxavierr/ProjetoDev/main/Images/desktopmobile%20img/tela%202.png" width="50%" height="200px"> <img src="https://raw.githubusercontent.com/matheusxavierr/ProjetoDev/main/Images/desktopmobile%20img/tela%203.png" width="50%" height="200px"><img src="https://raw.githubusercontent.com/matheusxavierr/ProjetoDev/main/Images/desktopmobile%20img/tela%204.png" width="50%" height="200px"><img src="https://raw.githubusercontent.com/matheusxavierr/ProjetoDev/main/Images/desktopmobile%20img/tela%205.png" width="50%" height="200px"><img src="https://raw.githubusercontent.com/matheusxavierr/ProjetoDev/main/Images/desktopmobile%20img/tela%206.png" width="50%" height="200px"><img src="https://raw.githubusercontent.com/matheusxavierr/ProjetoDev/main/Images/desktopmobile%20img/tela%207.png" width="50%" height="200px"><img src="https://raw.githubusercontent.com/matheusxavierr/ProjetoDev/main/Images/desktopmobile%20img/tela%208.png" width="50%" height="200px">
 
 <h3># Colaboradores</h3>
 
-| [<img src="https://avatars.githubusercontent.com/u/85394826?s=400&u=dde1ad05ed51bc897617f015a6509f4f537ce5be&v=4" width=115><br><sub>Rodrigo Martello</sub>](https://github.com/Rodrigoluma) |  [<img src="https://avatars.githubusercontent.com/u/107427628?v=4" width=115><br><sub>Wellington Nobre</sub>](https://github.com/WellingtonNobre) |  [<img src="https://avatars.githubusercontent.com/u/104038854?v=4" width=115><br><sub>Matheus Xavierr</sub>](https://github.com/matheusxavierr) | [<img src="https://avatars.githubusercontent.com/u/82288861?v=4" width=115><br><sub>Mario Cesar Yzarck</sub>](https://github.com/Mario-Cesar-Yzarck) |
-| :---: | :---: | :---: | :---: |
+| [<img src="https://avatars.githubusercontent.com/u/85394826?s=400&u=dde1ad05ed51bc897617f015a6509f4f537ce5be&v=4" width=115><br><sub>Rodrigo Martello</sub>](https://github.com/Rodrigoluma) |  [<img src="https://avatars.githubusercontent.com/u/107427628?v=4" width=115><br><sub>Wellington Nobre</sub>](https://github.com/WellingtonNobre) |  [<img src="https://avatars.githubusercontent.com/u/104038854?v=4" width=115><br><sub>Matheus Xavierr</sub>](https://github.com/matheusxavierr) | [<img src="https://avatars.githubusercontent.com/u/107722708?v=4" width=115><br><sub>Mario Cesar</sub>](https://github.com/MarioCesarCF) | [<img src="https://avatars.githubusercontent.com/u/105378159?v=4" width=115><br><sub>Jéssica Santana</sub>](https://github.com/DJehSantana) | [<img src="https://avatars.githubusercontent.com/u/102621822?v=4" width=115><br><sub>Wesley Bueno</sub>](https://github.com/buenowes) | [<img src="https://avatars.githubusercontent.com/u/106736133?v=4" width=115><br><sub>Thiago Silva</sub>](https://github.com/tfsilva2510) | [<img src="https://avatars.githubusercontent.com/u/104070821?v=4" width=115><br><sub>Ana Santos</sub>](https://github.com/anikape) | [<img src="https://avatars.githubusercontent.com/u/106935154?v=4" width=115><br><sub>Jaqueline de Paula</sub>](https://github.com/JaquelineDePaula) | [<img src="https://avatars.githubusercontent.com/u/106706937?v=4" width=115><br><sub>Cristiane Mól</sub>](https://github.com/Crisbmol) | [<img src="https://avatars.githubusercontent.com/u/68087170?v=4" width=115><br><sub>Juliana Pereira</sub>](https://github.com/Julianagpereira) | [<img src="https://avatars.githubusercontent.com/u/104529856?v=4" width=115><br><sub>Yashina Gomes</sub>](https://github.com/YashinaGomes) | [<img src="https://github.com/matheusxavierr/ProjetoDev/blob/main/Images/teamphotos/thamiris" width=115><br><sub>Thamiris Honorato</sub>](https://github.com/Crisbmol) |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
