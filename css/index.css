@@ -79,13 +79,15 @@ iframe {
 #carousel{
   width: 100%;
   margin-bottom: 30px;
+  
 }
 
 .carousel-images{
   display: flex;
   align-items: center;
   width: 100%;
-  height: auto;  
+  height: auto;
+  position: relative;
 }
 
 
@@ -133,20 +135,25 @@ iframe {
 }
 
 .text-informs{  
+  left: 0;
+  right: 0;
+  top: 90%;
+  bottom: 0;
+  margin: auto;
   font-size: 1em;
   display: flex; 
   width: 100%;
   justify-content: center;
   position: absolute; 
-  margin-bottom: 20px;
-  align-items: baseline;  
+  align-items: baseline; 
+  
 }
 
 .caption, .informs {
+ 
   color: white;
   font-weight: bold;
   font-style:oblique;
-  padding: 5px;
   text-shadow: 0 0 0.4em #000, 0 0 0.4em #000, 0 0 0.4em #000;
 }
 
