@@ -35,6 +35,7 @@ function insertHeader(){
                     '<li>' + 
                       '<a href="#">Locais</a>' + 
                       '<ul class="submenu-locais">' + 
+                      '<li id="ptTurism"><a href="#cards">Pontos Turísticos</a></li>' + 
                       '</ul>' + 
                     '<li>' + 
                       '<a href="./team.html">Equipe</a>' + 
@@ -49,23 +50,7 @@ function insertHeader(){
       '</div>' + 
   '</div>';
     document.querySelector("#header").innerHTML += codeBlock1;
-    const urlAtual = window.location.pathname.substring(1);
-
     
-    
-   switch (urlAtual) {
-    case 'team.html':
-      var codeBlockTeam = '<li><a href="index.html#cards">Pontos Turísticos</a></li></li>'; 
-      
-      document.querySelector(".submenu-locais").innerHTML += codeBlockTeam;
-      break;
-   
-    default:
-      var codeBlockWithoutTeam = '<li><a href="#cards">Pontos Turísticos</a></li></li>'; 
-      
-      document.querySelector(".submenu-locais").innerHTML += codeBlockWithoutTeam;
-      break;
-   }
 
      //insere submenu - criado para permitir escalabilidade
     for (i=0; i< estados.length; i++){
