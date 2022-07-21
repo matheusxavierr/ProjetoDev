@@ -73,7 +73,7 @@ main {
   align-items: stretch;
   height: 390px;
   width: 220px;
-  background-color: white;
+  background-color: #f5f6f3;
   padding: 1px 30px 5px 30px;
   border-radius: 20px;
   margin: 20px 10px;
@@ -256,7 +256,7 @@ main {
   border-radius: 20px;
   font-size: 1rem;
   font-weight: 700;
-  color: white;
+  color: #f5f6f3;
   margin: 5px 0;
   cursor: pointer;
   justify-content: center;
@@ -268,7 +268,7 @@ a {
 }
 
 a:visited {
-  color: white;
+  color: #f5f6f3;
 }
 
 @media only screen and (max-width: 350px){

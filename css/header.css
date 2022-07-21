@@ -7,7 +7,7 @@ header {
 header .logo {
     padding: 10px;
     width: auto;
-    height: 13vh;
+    max-height: 11vh;
 }
 
 header .container{
@@ -16,7 +16,7 @@ header .container{
     justify-content: space-between;
     
     max-width: 100%;
-    height: 13vh;
+    height: 11vh;
     margin: auto;
 }
 
@@ -31,7 +31,7 @@ header nav ul li {
 header nav ul > li a {
     display: inline-block;
     text-decoration: none;
-    color: white;
+    color: #f5f6f3;
     cursor: pointer;
     text-transform: uppercase;
     font-size: 18px;
@@ -99,13 +99,13 @@ header nav ul li a:hover {
         margin: 0;
         padding: 0;
         width: 100%;
-        color: white;
+        color: #f5f6f3;
         background-color: #0367A6;
         border-radius: 5px;
     }
 
     .menu>li:not(:last-child) {
-        border-bottom: 1px solid white;
+        border-bottom: 1px solid #f5f6f3;
     }
 
     .menu li a {
@@ -146,7 +146,7 @@ header nav ul li a:hover {
     }
     
     .submenu-locais li a{
-        border-bottom: 1px solid white;
+        border-bottom: 1px solid #f5f6f3;
     }
 
 
@@ -163,7 +163,7 @@ header nav ul li a:hover {
         display: block;
         height: 5px;
         width: 100%;
-        background: white;
+        background: #f5f6f3;
         border-radius: 30px;
         transition: 0.25s ease-in-out;
     }
