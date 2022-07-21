@@ -1,7 +1,7 @@
 /* ESTILOS DO HEADER */
 
 header {
-    background-color: #44bde7;
+    background-color: #0367A6;
 }
 
 header .logo {
@@ -40,7 +40,7 @@ header nav ul > li a {
 }
 
 header nav ul li a:hover {
-    background: rgba(255,255,255,0.15);
+    background: #262621;
 }
 
 
@@ -56,7 +56,7 @@ header nav ul li a:hover {
     text-align: start;
     position: absolute;    
     padding-left: 0;
-    background-color: #44bde7;    
+    background-color: #0367A6;    
     display: none;
     z-index: 10;
 }
@@ -100,7 +100,7 @@ header nav ul li a:hover {
         padding: 0;
         width: 100%;
         color: white;
-        background-color: #44bde7;
+        background-color: #0367A6;
         border-radius: 5px;
     }
 

@@ -5,7 +5,7 @@
 
 main h1 {
     font-size: 2.5em;
-    color: #00689C;
+    color: #0367A6;
     padding: 20px;
     margin-left: 20px;
 }
@@ -27,7 +27,7 @@ article {
 
 .text-introdution a {
     text-decoration: none;
-    color: #00689C;
+    color: #011640;
     font-weight: bold;
 }
 
@@ -52,7 +52,7 @@ article {
     height: 50%;
     text-align: center;
     border-radius: 20px;
-    box-shadow: 0 0 1.5em black;
+    box-shadow: 0 0 1.5em #262621;
 }
 
 .card-container:hover {
@@ -74,7 +74,7 @@ article {
 
 .content p {
     text-align: center;
-    color: #00689C;
+    color: #011640;
     font-weight: bold;
 }
 
@@ -94,7 +94,7 @@ article {
 
 .article-container h2 {
     text-align: center;
-    color: #00689C;
+    color: #011640;
     padding-bottom: 50px;
     font-size: 1.8em;
 }
@@ -112,7 +112,7 @@ article {
 
 .article-container a {
     text-decoration: none;
-    color: #00689C;
+    color: #011640;
     font-weight: bold;
 }
 

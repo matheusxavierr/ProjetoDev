@@ -49,11 +49,13 @@ iframe {
   text-align: center;
   margin: 30px;
   font-size: 2em;
+  color: #011640;
 }
 
 #introdution-texts h2 {
   text-align: center;
   margin: 30px;
+  color: #011640;
 }
 
 .cidades,
@@ -70,7 +72,7 @@ iframe {
   margin-top: 20px;
   margin-bottom: 10px;
   border-radius: 10px;
-  box-shadow: 0 0 0.5em black;
+  box-shadow: 0 0 0.5em #262621;
 }
 
 
