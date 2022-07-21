@@ -10,7 +10,7 @@
 <h3># Project Status</h3>
 <p align="center"><img src="https://raw.githubusercontent.com/matheusxavierr/ProjetoDev/main/Images/Readme%20img/Timeline.jpg" width="100%" height="500px" alt="timeline"></p>
 <h3># Technologies used</h3>
-<p> <img src="https://raw.githubusercontent.com/matheusxavierr/ProjetoDev/main/assets/html5.svg" width="50px" height="50px" name="HTML5"> <img src="https://raw.githubusercontent.com/matheusxavierr/ProjetoDev/main/assets/css3.svg" width="50px" height="50px"> <img src="https://github.com/matheusxavierr/ProjetoDev/blob/main/assets/javascript.svg" width="50px" height="50px"> <img src="https://raw.githubusercontent.com/matheusxavierr/ProjetoDev/main/assets/bootstrap.svg" width="50px" height="50px"> <img src="https://raw.githubusercontent.com/matheusxavierr/ProjetoDev/main/assets/github.svg" width="50px" height="50px"></p>
+<p> <img src="https://raw.githubusercontent.com/matheusxavierr/ProjetoDev/main/assets/html-5.svg" width="50px" height="50px" name="HTML5"> <img src="https://raw.githubusercontent.com/matheusxavierr/ProjetoDev/main/assets/css-3.svg" width="50px" height="50px"> <img src="https://github.com/matheusxavierr/ProjetoDev/blob/main/assets/JS.svg" width="50px" height="50px"> <img src="https://raw.githubusercontent.com/matheusxavierr/ProjetoDev/main/assets/github2.svg" width="50px" height="50px"></p>
 
 <h3># Responsive features</h3><h1>      :computer:  Desktop view / Mobile view          :iphone:</h1>
 
