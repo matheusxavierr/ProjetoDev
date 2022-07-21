@@ -19,9 +19,10 @@ main {
 }
 
 #video{
-  width: 100%;
+  width: 60%;
   height: 90vh;
   align-items: center;
+  margin: 0 auto;
 }
 iframe {
   width: 100%;
