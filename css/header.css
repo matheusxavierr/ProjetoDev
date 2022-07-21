@@ -5,18 +5,17 @@ header {
 }
 
 header .logo {
-    padding: 10px;
+    padding: 5px;
     width: auto;
-    max-height: 11vh;
+    max-height: 90%;
 }
 
 header .container{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    
+    justify-content: space-between;    
     max-width: 100%;
-    height: 11vh;
+    height: 80px;
     margin: auto;
 }
 
@@ -77,6 +76,10 @@ header nav ul li a:hover {
 /* Responsividade mobile */
 
 @media only screen and (max-width:740px){
+    header .container{
+        height: 70px;
+    }
+    
     .menu-button-container {
         display: flex
     }
@@ -84,7 +87,7 @@ header nav ul li a:hover {
     .menu {
         position: absolute;
         left: 0;
-        top: 80px;
+        top: 70px;
         flex-direction: column;
         width: 100%;
         justify-content: center;
@@ -100,8 +103,7 @@ header nav ul li a:hover {
         padding: 0;
         width: 100%;
         color: #f5f6f3;
-        background-color: #0367A6;
-        border-radius: 5px;
+        background-color: #0367A6;    
     }
 
     .menu>li:not(:last-child) {
@@ -129,7 +131,7 @@ header nav ul li a:hover {
         width: 100%;
         position: absolute;
         overflow: hidden;
-        top: 140px;
+        top: 130px;
         max-height: 0;
         flex-direction: column;
         text-align: center;

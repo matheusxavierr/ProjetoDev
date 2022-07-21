@@ -24,7 +24,7 @@ var codeBlockFooter =
     '<section id="footer-content">' +
     '<div class="media-content">' +
     '<div id="logo-style" class="text-justify">' +
-    '<img id="logo-tipo" src="./assets/logo-footer (2).png">' +
+    '<img id="logo-tipo" src="./assets/logo4.png">' +
     "</div>" +
     "<p>Ficamos felizes de ver você aqui!</p>" +
     "<span>Deixe uma mensagem, sua opnião é muito importante pra nós! </span><br>" +

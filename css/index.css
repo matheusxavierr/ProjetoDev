@@ -206,18 +206,19 @@ iframe {
 
 }
 
+/* Media query para flutuação das imagens*/
 @media (min-width: 630px) {
   
 
   .natureza img {
     float: left;
-    margin-right: 10px;
+    margin-right: 15px;
   }
 
   .cidades img,
   .gastronomia img {
     float: right;
-    margin-left: 10px;
+    margin-left: 15px;
   }
 }
 
