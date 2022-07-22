@@ -61,7 +61,7 @@ main {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
   padding: 20px 20px;
   margin: 0 2vw 0 2vw;
 }
@@ -193,14 +193,14 @@ main {
   height: 200px;
   border-radius: 20px 20px 0 0;
 }
-
+/*
 .user-profile-image13{
   background-image: url(../Images/teamphotos/thamiris);
   background-size: cover;
   width: 220px;
   height: 200px;
   border-radius: 20px 20px 0 0;
-}
+} */
 
 
 .username {
