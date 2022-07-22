@@ -19,7 +19,7 @@ main {
 }
 
 #video{
-  width: 60%;
+  width: 80%;
   height: 80vh;
   align-items: center;
   margin: 0 auto;
@@ -203,6 +203,7 @@ iframe {
 
   #video{
     height: 50vh;
+    width: 100%;
   }
 
 }
