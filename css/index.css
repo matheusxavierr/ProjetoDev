@@ -144,7 +144,7 @@ iframe {
   top: 90%;
   bottom: 0;
   margin: auto;
-  font-size: 1em;
+  font-size: 1.2em;
   display: flex; 
   width: 100%;
   justify-content: center;
@@ -153,8 +153,7 @@ iframe {
   
 }
 
-.caption, .informs {
- 
+.informs { 
   color: white;
   font-weight: bold;
   font-style:oblique;
@@ -198,7 +197,7 @@ iframe {
   }
 
   .text-informs{
-    font-size: 0.7em;
+    font-size: 1em;
   }
 
   #video{
