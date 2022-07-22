@@ -10,6 +10,7 @@
 }
 body h1 {
   font-size: 2rem;
+  color: #011640;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -60,7 +61,7 @@ main {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
   padding: 20px 20px;
   margin: 0 2vw 0 2vw;
 }
@@ -72,11 +73,17 @@ main {
   align-items: stretch;
   height: 390px;
   width: 220px;
-  background-color: white;
+  background-color: #f5f6f3;
   padding: 1px 30px 5px 30px;
   border-radius: 20px;
-  margin: 10px 10px;
-  box-shadow: 0 0 1em black;
+  margin: 20px 10px;
+  box-shadow: 0 0 1em #262621;
+}
+
+.card-container:hover{
+    opacity: 0.7;
+    transform: translateY(-15px);
+    transition: 0.5s;
 }
 
 .card-header {
@@ -186,26 +193,26 @@ main {
   height: 200px;
   border-radius: 20px 20px 0 0;
 }
-
+/*
 .user-profile-image13{
   background-image: url(../Images/teamphotos/thamiris);
   background-size: cover;
   width: 220px;
   height: 200px;
   border-radius: 20px 20px 0 0;
-}
+} */
 
 
 .username {
   margin-top: 3px;
   line-height: 1.5;
   font-weight: 700;
-  color: #44bee7;
+  color: #011640;
   font-size: 1.1rem;
 }
 
 .user-bio {
-  color: #44bee7;
+  color: #011640;
   font-size: 0.8rem;
   font-weight: 600;
 }
@@ -222,7 +229,7 @@ main {
   display: flex;
   flex-direction: column;
   text-align: center;
-  color: #44bee7;
+  color: #011640;
 }
 
 .item-value {
@@ -241,7 +248,7 @@ main {
 }
 
 .follow-btn {
-  background: #44bee7;
+  background: #011640;
   width: 100%;
   outline: none;
   border: none;
@@ -249,7 +256,7 @@ main {
   border-radius: 20px;
   font-size: 1rem;
   font-weight: 700;
-  color: white;
+  color: #f5f6f3;
   margin: 5px 0;
   cursor: pointer;
   justify-content: center;
@@ -261,7 +268,7 @@ a {
 }
 
 a:visited {
-  color: white;
+  color: #f5f6f3;
 }
 
 @media only screen and (max-width: 350px){

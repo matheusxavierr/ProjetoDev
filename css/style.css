@@ -12,7 +12,7 @@ body {
     font-family: "Source Sans Pro", 'Times New Roman';
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
-    background-image: linear-gradient(0deg, rgb(146, 200, 237) 0%, rgb(249, 241, 140) 50%, rgb(165, 243, 165) 100%);
+    background-color: #B6DBF2;
     scroll-behavior: smooth;
 } 
 
@@ -38,6 +38,6 @@ body {
 
 #icon-btn {
   font-size: 2rem;
-  color: #0a7396;
+  color: #011640;
 }
 

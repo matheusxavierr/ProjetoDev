@@ -18,7 +18,7 @@ function insertHeader(){
   
       var codeBlock1 = 
       '<div class="container">' + 
-        '<img class="logo" src="./assets/logo.jpeg" alt="logo página">' + 
+        '<img class="logo" src="./assets/logo-header.png" alt="logo página">' + 
         '<div class="menu-section">' + 
           '<div class="container-menu">' + 
             '<input type="checkbox" id="checkbox-menu" />' + 
