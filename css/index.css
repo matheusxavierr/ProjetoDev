@@ -36,7 +36,8 @@ iframe {
   margin: 30px auto;
   background-color: #f5f6f3;
   padding: 30px 50px;
-  width: 90%;
+  width: 90%;  
+  border-radius: 10px
 }
 
 #introdution-texts p {
